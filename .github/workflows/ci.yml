@@ -1,0 +1,80 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  test:
+    name: Lint, types and tests
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Install
+        run: pip install -e ".[dev,dashboard]" -c constraints.txt
+      - name: Lint
+        run: |
+          ruff check .
+          ruff format --check .
+      - name: Type check
+        run: mypy
+      - name: dbt project parses
+        run: dbt parse --project-dir dbt --profiles-dir dbt
+      - name: Unit, S3, dashboard, dbt unit and end-to-end tests
+        run: pytest -v
+
+  airflow:
+    name: Airflow DAG
+    runs-on: ubuntu-latest
+    env:
+      AIRFLOW_VERSION: "3.4.0"
+      PYTHON_VERSION: "3.11"
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      - name: Install Airflow with its official constraints
+        run: >
+          pip install "apache-airflow==${AIRFLOW_VERSION}" pytest pytest-cov
+          --constraint "https://raw.githubusercontent.com/apache/airflow/constraints-${AIRFLOW_VERSION}/constraints-${PYTHON_VERSION}.txt"
+      - name: DAG imports and has the expected structure
+        env:
+          AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+        run: pytest tests/test_dag.py -v --no-cov
+
+  docker:
+    name: Docker image
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build
+        run: docker build -f airflow/Dockerfile -t lvm-airflow:ci .
+      - name: Pipeline CLI and dbt project work inside the image
+        run: |
+          docker run --rm lvm-airflow:ci bash -c '
+            set -e
+            "$LVM_BIN/lvm" --help
+            cd "$LVM_PROJECT_DIR" && "$LVM_BIN/dbt" parse --project-dir dbt --profiles-dir dbt'
+      - name: Airflow loads the baked-in DAG without errors
+        run: |
+          docker run --rm lvm-airflow:ci python -c '
+          from airflow.dag_processing.dagbag import DagBag
+          bag = DagBag("/opt/airflow/dags")
+          assert not bag.import_errors, bag.import_errors
+          assert "vehicle_market_daily" in bag.dags
+          print("DAG OK:", sorted(t.task_id for t in bag.dags["vehicle_market_daily"].tasks))'
+      - name: Compose file is valid
+        run: docker compose config --quiet
