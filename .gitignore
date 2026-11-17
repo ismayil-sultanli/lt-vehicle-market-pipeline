@@ -1,0 +1,34 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+
+# data is reproducible from the public API - never commit it
+# `data/*`, not `data/`: git cannot re-include a file inside an excluded directory,
+# and the folder must exist on a fresh clone for DuckDB to create the warehouse.
+data/*
+!data/.gitkeep
+
+# dbt
+dbt/target/
+dbt/dbt_packages/
+dbt/logs/
+logs/
+.user.yml
+
+# airflow
+airflow/logs/
+.env
+.DS_Store
+
+# local tooling
+.claude/
+
+# personal study notes, not part of the project
+notes/
