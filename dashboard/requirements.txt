@@ -1,0 +1,7 @@
+# Dependencies for hosting the dashboard alone (e.g. Streamlit Community Cloud).
+# The dashboard reads Parquet files only; it needs none of the pipeline code.
+# Pinned to the versions in ../constraints.txt that the tests ran against.
+streamlit==1.67.0
+plotly==7.1.0
+pandas==3.1.1
+pyarrow==26.0.1
