@@ -1,0 +1,32 @@
+# Local Airflow for development: `docker compose up --build`, then open
+# http://localhost:8080 (the admin password is printed in the container log).
+# `airflow standalone` runs scheduler, API server and a SQLite metadata DB in
+# one container - fine for a single-machine pipeline, not a production layout.
+services:
+  airflow:
+    build:
+      context: .
+      dockerfile: airflow/Dockerfile
+    command: standalone
+    ports:
+      - "8080:8080"
+    environment:
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__CORE__DEFAULT_TIMEZONE: Europe/Vilnius
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./dbt:/opt/project/dbt
+      - ./data:/opt/project/data
+
+  dashboard:
+    image: python:3.11-slim
+    working_dir: /app
+    command: >
+      sh -c "pip install --no-cache-dir -r dashboard/requirements.txt &&
+             streamlit run dashboard/app.py --server.address 0.0.0.0"
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./dashboard:/app/dashboard:ro
+      - ./.streamlit:/app/.streamlit:ro
+      - ./data/export:/app/data/export:ro
