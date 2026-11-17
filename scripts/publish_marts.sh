@@ -32,6 +32,20 @@ trap cleanup EXIT
 git -C "$repo_root" worktree add --quiet --orphan -b "$tmp_branch" "$worktree"
 cp "${files[@]}" "$worktree/"
 date -u +"%Y-%m-%dT%H:%M:%SZ" > "$worktree/PUBLISHED_AT"
+# The marts are derived from CC BY 4.0 data: the licence requires attribution
+# wherever they are published, including this branch.
+cat > "$worktree/README.md" <<'NOTICE'
+# Published marts
+
+Aggregate tables produced daily by this repository's pipeline and read by the
+dashboard. Generated automatically; do not edit.
+
+Data: AB Regitra (https://data.gov.lt/datasets/2812/) and TRANSEKSTA
+(https://data.gov.lt/datasets/2721/), via the Lithuanian open data portal,
+licensed under Creative Commons Attribution 4.0
+(https://creativecommons.org/licenses/by/4.0/). The data has been cleaned,
+de-duplicated and aggregated by this project.
+NOTICE
 
 git -C "$worktree" add -f -- .
 git -C "$worktree" \
