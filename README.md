@@ -1,6 +1,9 @@
 # Lithuanian Vehicle Data Pipeline
 
 [![CI](https://github.com/ismayil-sultanli/lt-vehicle-market-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/ismayil-sultanli/lt-vehicle-market-pipeline/actions/workflows/ci.yml)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://lt-vehicle-market.streamlit.app)
+
+**Live dashboard: [lt-vehicle-market.streamlit.app](https://lt-vehicle-market.streamlit.app)**
 
 An end-to-end ELT pipeline over two national open datasets: **every vehicle
 ownership transfer in Lithuania since 2021** (9.4 million documents) and **every
@@ -256,9 +259,10 @@ The DAG `vehicle_market_daily` runs both extracts in parallel, then freshness,
 runner every day, keeps raw partitions in the Actions cache and pushes the
 exported marts to a `marts-data` branch.
 
-The dashboard deploys to Streamlit Community Cloud as is (main file
-`dashboard/app.py`, dependencies in `dashboard/requirements.txt`). It starts on
-the committed snapshot; to follow the daily data, add this secret:
+The dashboard runs on Streamlit Community Cloud at
+[lt-vehicle-market.streamlit.app](https://lt-vehicle-market.streamlit.app), deployed
+as is (main file `dashboard/app.py`, dependencies in `dashboard/requirements.txt`).
+It starts on the committed snapshot; to follow the daily data, add this secret:
 
 ```toml
 LVM_MARTS_URL = "https://raw.githubusercontent.com/ismayil-sultanli/lt-vehicle-market-pipeline/marts-data"
