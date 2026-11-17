@@ -1,0 +1,4 @@
+inspection_type_lt,inspection_type,is_first_attempt
+Techninė apžiūra,Periodic inspection,true
+Pakartotina techninė apžiūra,Re-inspection,false
+TA dokumentų išdavimas naujai TP,Documents for a new vehicle,false

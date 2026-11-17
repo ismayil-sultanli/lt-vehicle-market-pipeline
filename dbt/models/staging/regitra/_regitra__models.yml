@@ -1,0 +1,61 @@
+version: 2
+
+models:
+  - name: stg_regitra__transactions
+    description: >
+      Cleaned transaction documents: deduplicated to the latest version, typed,
+      renamed to English. Categorical values are still in Lithuanian.
+    columns:
+      - name: transaction_id
+        description: Primary key.
+        data_tests: [unique, not_null]
+      - name: document_id
+        description: >
+          Pseudonymised document identifier. Unique on its own, which guards
+          against the platform re-issuing `_id` for an existing document.
+        data_tests: [unique, not_null]
+      - name: registry_operation_id
+        description: Several documents can belong to one registry operation.
+        data_tests: [not_null]
+      - name: transaction_date
+        description: Date the document was issued.
+        data_tests: [not_null]
+      - name: modified_at
+        data_tests: [not_null]
+      - name: document_type_lt
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('document_types')
+                field: document_type_lt
+              config:
+                severity: warn
+      - name: country_lt
+        description: Country name as entered in the registry; coverage is checked by a singular test.
+      - name: currency_lt
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('currencies')
+                field: currency_lt
+              config:
+                severity: warn
+      - name: payment_method_lt
+        data_tests:
+          - accepted_values:
+              arguments:
+                values:
+                  - Bankiniu pavedimu
+                  - Grynaisiais pinigais
+                  - Grynaisiais pinigais ir bankiniu pavedimu
+                  - Nenurodyta
+      - name: declared_amount
+        description: Amount as declared on the document, in `currency_lt`. Not validated by the registry.
+        data_tests:
+          - not_null
+          # A few hundred source documents carry a negative amount. They are kept
+          # (the transfer happened) but can never count as a valid price.
+          - non_negative:
+              config:
+                severity: warn

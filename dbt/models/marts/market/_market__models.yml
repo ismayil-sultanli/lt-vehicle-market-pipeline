@@ -1,0 +1,184 @@
+version: 2
+
+models:
+  - name: fct_vehicle_transactions
+    description: >
+      One row per vehicle ownership-transfer document, with English categories
+      and analysis flags. Loaded incrementally on `extracted_at` (arrival time).
+    columns:
+      - name: transaction_id
+        data_tests: [unique, not_null]
+      - name: transaction_date
+        data_tests: [not_null]
+      - name: transaction_month
+        data_tests: [not_null]
+      - name: document_type
+        description: English document type; `Unmapped` means the seed needs a new row.
+        data_tests:
+          - not_null
+      - name: transaction_category
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values:
+                  - sale
+                  - lease_end
+                  - scrappage
+                  - inheritance
+                  - gift
+                  - exchange
+                  - auction
+                  - own_import
+                  - legal
+                  - corporate
+                  - family
+                  - annulment
+                  - other
+      - name: is_market_sale
+        description: Sale contract or invoice, i.e. a priced arm's-length sale.
+        data_tests: [not_null]
+      - name: origin_country
+        description: >
+          Country of the transaction as recorded by the registry. Anything other
+          than Lithuania is treated as a vehicle acquired abroad (`is_import`).
+        data_tests: [not_null]
+      - name: is_import
+        data_tests: [not_null]
+      - name: payment_method
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Bank transfer", "Cash", "Cash and bank transfer", "Not specified"]
+      - name: currency_code
+        data_tests: [not_null]
+      - name: amount_eur
+        description: Declared amount when the document is in EUR, otherwise NULL.
+      - name: has_valid_price
+        description: EUR amount within the plausible range configured in dbt_project.yml.
+        data_tests: [not_null]
+      - name: price_band
+        data_tests: [not_null]
+      - name: is_above_cash_limit
+        description: EUR amount strictly greater than the statutory cash limit.
+        data_tests: [not_null]
+      - name: is_after_cash_limit_law
+        data_tests: [not_null]
+
+  - name: agg_market_monthly
+    description: Monthly volume and declared price statistics of market sales by origin.
+    config:
+      contract:
+        enforced: true
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [transaction_month, origin_type]
+    columns:
+      - name: transaction_month
+        data_type: date
+        data_tests: [not_null]
+      - name: origin_type
+        data_type: varchar
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Domestic", "Imported"]
+      - name: transactions
+        data_type: bigint
+        data_tests: [not_null, non_negative]
+      - name: priced_transactions
+        data_type: bigint
+        description: Sales with a valid EUR price; the base of every price statistic.
+      - name: median_price_eur
+        data_type: integer
+      - name: p25_price_eur
+        data_type: integer
+      - name: p75_price_eur
+        data_type: integer
+      - name: mean_price_eur
+        data_type: integer
+      - name: declared_value_eur
+        data_type: bigint
+      - name: is_complete_month
+        data_type: boolean
+        description: >
+          False before coverage starts (May 2021) and for the newest months that
+          are still receiving late registrations. Trend charts use true only.
+        data_tests: [not_null]
+
+  - name: agg_payment_methods_monthly
+    description: Payment method mix of market sales, split at the statutory cash limit.
+    config:
+      contract:
+        enforced: true
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [transaction_month, price_segment, payment_method]
+    columns:
+      - name: transaction_month
+        data_type: date
+        data_tests: [not_null]
+      - name: price_segment
+        data_type: varchar
+        description: Above the cash limit means strictly greater than it.
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Above cash limit", "At or below cash limit"]
+      - name: payment_method
+        data_type: varchar
+      - name: transactions
+        data_type: bigint
+      - name: share_of_segment
+        data_type: double
+        data_tests: [not_null, non_negative]
+      - name: is_after_cash_limit_law
+        data_type: boolean
+
+  - name: agg_cash_limit_bunching_monthly
+    description: >
+      Market sales declared within EUR 100 of the statutory cash limit, split
+      into just below, exactly at and just above it.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [transaction_month, price_position]
+    columns:
+      - name: price_position
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Just below the limit", "Exactly at the limit", "Just above the limit"]
+      - name: transactions
+        data_tests: [not_null, non_negative]
+
+  - name: agg_import_origins_monthly
+    description: Imported market sales per month and origin country.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [transaction_month, origin_country]
+
+  - name: agg_transaction_types_monthly
+    description: All ownership transfers per month, category and document type.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [transaction_month, document_type]
+
+  - name: agg_price_bands_yearly
+    description: Share of market sales per declared price band and year.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [transaction_year, price_band]
+
+  - name: agg_pipeline_status
+    description: One row describing what the warehouse currently contains.
+    columns:
+      - name: documents
+        data_tests: [not_null]
+      - name: latest_transaction_date
+        data_tests: [not_null]

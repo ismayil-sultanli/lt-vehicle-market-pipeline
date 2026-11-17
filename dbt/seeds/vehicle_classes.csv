@@ -1,0 +1,32 @@
+vehicle_class,vehicle_class_name,vehicle_category
+M1,Passenger car,Passenger cars
+M1G,Off-road passenger car,Passenger cars
+M2,Minibus,Buses
+M2G,Off-road minibus,Buses
+M3,Bus,Buses
+M3G,Off-road bus,Buses
+N1,Light commercial vehicle,Light commercial vehicles
+N1G,Off-road light commercial vehicle,Light commercial vehicles
+N2,Medium truck,Trucks
+N2G,Off-road medium truck,Trucks
+N3,Heavy truck,Trucks
+N3G,Off-road heavy truck,Trucks
+O1,Light trailer,Trailers
+O2,Trailer up to 3.5 t,Trailers
+O3,Trailer up to 10 t,Trailers
+O4,Heavy trailer,Trailers
+L1,Moped,Motorcycles and mopeds
+L1E,Moped,Motorcycles and mopeds
+L2,Three-wheel moped,Motorcycles and mopeds
+L2E,Three-wheel moped,Motorcycles and mopeds
+L3,Motorcycle,Motorcycles and mopeds
+L3E,Motorcycle,Motorcycles and mopeds
+L4,Motorcycle with sidecar,Motorcycles and mopeds
+L4E,Motorcycle with sidecar,Motorcycles and mopeds
+L5,Motor tricycle,Motorcycles and mopeds
+L5E,Motor tricycle,Motorcycles and mopeds
+L6,Light quadricycle,Motorcycles and mopeds
+L6E,Light quadricycle,Motorcycles and mopeds
+L7,Heavy quadricycle,Motorcycles and mopeds
+L7E,Heavy quadricycle,Motorcycles and mopeds
+GK,Unclassified (GK),Other

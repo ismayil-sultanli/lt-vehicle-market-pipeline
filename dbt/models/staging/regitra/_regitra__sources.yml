@@ -1,0 +1,46 @@
+version: 2
+
+sources:
+  - name: regitra
+    description: >
+      Vehicle ownership-transfer documents published by AB Regitra (the Lithuanian
+      vehicle registry) on the national open data portal, landed as monthly
+      Parquet partitions by the `lvm extract` job.
+    config:
+      freshness:
+        warn_after: { count: 14, period: day }
+        error_after: { count: 45, period: day }
+      loaded_at_field: "cast(iraso_mod_data as timestamp)"
+    tables:
+      - name: sandoris
+        description: One row per version of a transaction document (append-only history).
+        config:
+          external_location: >-
+            read_parquet('{{ env_var("LVM_RAW_URI", "") or env_var("LVM_DATA_DIR", "data") ~ "/raw" }}/sandoris/*/*.parquet',
+            hive_partitioning = true, union_by_name = true)
+        columns:
+          - name: _id
+            description: Stable record identifier assigned by the open data platform.
+            data_tests: [not_null]
+          - name: dok_id
+            description: Pseudonymised document identifier.
+          - name: veiklos_id
+            description: Pseudonymised identifier of the registry operation the document belongs to.
+          - name: dok_rusis
+            description: Document type (Lithuanian).
+          - name: isd_data
+            description: Date the document was issued, i.e. the transaction date.
+          - name: salis
+            description: Country of the transaction (Lithuanian name).
+          - name: suma
+            description: Amount declared on the document.
+          - name: valiuta
+            description: Currency of the declared amount (Lithuanian name).
+          - name: mokejimo_budas
+            description: Payment method (Lithuanian).
+          - name: iraso_mod_data
+            description: Timestamp the record was last modified in the source system.
+          - name: mod_month
+            description: Partition key (YYYY-MM of iraso_mod_data), from the file path.
+          - name: _extracted_at
+            description: UTC timestamp of the extract run that produced the row.

@@ -1,0 +1,70 @@
+version: 2
+
+seeds:
+  - name: document_types
+    description: Lithuanian document types mapped to English and a transaction category.
+    columns:
+      - name: document_type_lt
+        data_tests: [unique, not_null]
+      - name: is_market_sale
+        description: True for sale contracts and invoices (priced arm's-length sales).
+        data_tests: [not_null]
+  - name: countries
+    description: >
+      Lithuanian country names mapped to English, ISO 3166-1 alpha-2 and a region.
+      Covers every country with meaningful volume; the long tail of rare (often
+      mis-keyed) values falls into `Other`.
+    config:
+      column_types: { iso2: varchar }
+    columns:
+      - name: country_lt
+        data_tests: [unique, not_null]
+      - name: country_en
+        data_tests: [not_null]
+  - name: currencies
+    description: Lithuanian currency names mapped to ISO 4217 codes.
+    columns:
+      - name: currency_lt
+        data_tests: [unique, not_null]
+      - name: currency_code
+        data_tests: [not_null]
+  - name: payment_methods
+    columns:
+      - name: payment_method_lt
+        data_tests: [unique, not_null]
+  - name: vehicle_makes
+    description: >
+      Hand-typed make spellings (after `normalise_make`) mapped to one brand
+      name. Covers the spellings that matter by volume; anything else becomes
+      `Other`, and a coverage test fails if that share grows.
+    columns:
+      - name: make_key
+        data_tests: [unique, not_null]
+      - name: make
+        data_tests: [not_null]
+  - name: vehicle_classes
+    description: EU vehicle categories mapped to a readable name and a broad group.
+    columns:
+      - name: vehicle_class
+        data_tests: [unique, not_null]
+      - name: vehicle_category
+        data_tests: [not_null]
+  - name: fuel_types
+    description: Lithuanian fuel combinations mapped to English and a fuel group.
+    columns:
+      - name: fuel_lt
+        data_tests: [unique, not_null]
+      - name: fuel_group
+        data_tests:
+          - not_null
+          - accepted_values:
+              arguments:
+                values: ["Diesel", "Petrol", "LPG", "Hybrid", "Electric"]
+  - name: inspection_types
+    columns:
+      - name: inspection_type_lt
+        data_tests: [unique, not_null]
+  - name: inspection_conclusions
+    columns:
+      - name: conclusion_lt
+        data_tests: [unique, not_null]

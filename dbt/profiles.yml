@@ -1,0 +1,28 @@
+# Checked in on purpose: it holds no secrets. Credentials come from the
+# environment, and the warehouse is a local DuckDB file.
+lt_vehicle_market:
+  target: "{{ env_var('DBT_TARGET', 'dev') }}"
+  outputs:
+    # Raw layer on the local filesystem.
+    dev:
+      type: duckdb
+      path: "{{ env_var('LVM_DATA_DIR', 'data') }}/warehouse.duckdb"
+      threads: 4
+
+    # Raw layer in an S3-compatible bucket (set LVM_RAW_URI=s3://bucket/prefix).
+    # The warehouse stays a local DuckDB file; only the source data is remote.
+    s3:
+      type: duckdb
+      path: "{{ env_var('LVM_DATA_DIR', 'data') }}/warehouse.duckdb"
+      threads: 4
+      extensions:
+        - httpfs
+      secrets:
+        - type: s3
+          key_id: "{{ env_var('AWS_ACCESS_KEY_ID', '') }}"
+          secret: "{{ env_var('AWS_SECRET_ACCESS_KEY', '') }}"
+          region: "{{ env_var('AWS_DEFAULT_REGION', 'eu-central-1') }}"
+          # A custom endpoint (Cloudflare R2, MinIO) is addressed path-style.
+          endpoint: "{{ env_var('LVM_S3_ENDPOINT_URL', 'https://s3.amazonaws.com').split('://')[1] }}"
+          url_style: "{{ 'path' if env_var('LVM_S3_ENDPOINT_URL', '') else 'vhost' }}"
+          use_ssl: "{{ env_var('LVM_S3_ENDPOINT_URL', 'https://').startswith('https') }}"

@@ -1,0 +1,149 @@
+version: 2
+
+models:
+  - name: int_transactions__enriched
+    description: Transactions with English categories and the business flags the market marts rely on.
+  - name: int_inspections__enriched
+    description: Inspections with English categories, a normalised make and model, and validated numeric attributes.
+  - name: int_inspections__odometer_intervals
+    description: Pairs of consecutive periodic inspections of the same passenger car.
+  - name: int_inspections__recent_passenger_cars
+    description: The current passenger-car fleet, one row per vehicle seen in the most recent inspection window.
+
+unit_tests:
+  - name: cash_limit_is_strictly_greater_than
+    description: The statute restricts cash payments that exceed the limit, so a sale at exactly EUR 5,000 is not above it.
+    model: int_transactions__enriched
+    given:
+      - input: ref('document_types')
+      - input: ref('countries')
+      - input: ref('currencies')
+      - input: ref('payment_methods')
+      - input: ref('stg_regitra__transactions')
+        rows:
+          - { transaction_id: at_limit,    currency_lt: Euras, declared_amount: 5000.00, transaction_date: 2023-03-01, country_lt: LIETUVA }
+          - { transaction_id: one_cent,    currency_lt: Euras, declared_amount: 5000.01, transaction_date: 2023-03-01, country_lt: LIETUVA }
+          - { transaction_id: before_law,  currency_lt: Euras, declared_amount: 9000.00, transaction_date: 2022-10-31, country_lt: LIETUVA }
+          - { transaction_id: law_day,     currency_lt: Euras, declared_amount: 9000.00, transaction_date: 2022-11-01, country_lt: LIETUVA }
+    expect:
+      rows:
+        - { transaction_id: at_limit,   is_above_cash_limit: false, is_after_cash_limit_law: true,  price_band: "5,000 - 9,999" }
+        - { transaction_id: one_cent,   is_above_cash_limit: true,  is_after_cash_limit_law: true,  price_band: "5,000 - 9,999" }
+        - { transaction_id: before_law, is_above_cash_limit: true,  is_after_cash_limit_law: false, price_band: "5,000 - 9,999" }
+        - { transaction_id: law_day,    is_above_cash_limit: true,  is_after_cash_limit_law: true,  price_band: "5,000 - 9,999" }
+
+  - name: price_validity_and_currency
+    description: Only EUR amounts inside the plausible range count as prices; everything else stays a transaction without a price.
+    model: int_transactions__enriched
+    given:
+      - input: ref('document_types')
+      - input: ref('countries')
+      - input: ref('currencies')
+      - input: ref('payment_methods')
+      - input: ref('stg_regitra__transactions')
+        rows:
+          - { transaction_id: normal,    currency_lt: Euras,       declared_amount: 2500.00,    transaction_date: 2024-01-10, country_lt: LIETUVA }
+          - { transaction_id: symbolic,  currency_lt: Euras,       declared_amount: 1.00,       transaction_date: 2024-01-10, country_lt: LIETUVA }
+          - { transaction_id: negative,  currency_lt: Euras,       declared_amount: -300.00,    transaction_date: 2024-01-10, country_lt: LIETUVA }
+          - { transaction_id: absurd,    currency_lt: Euras,       declared_amount: 22244400.0, transaction_date: 2024-01-10, country_lt: LIETUVA }
+          - { transaction_id: dollars,   currency_lt: JAV doleris, declared_amount: 8000.00,    transaction_date: 2024-01-10, country_lt: LIETUVA }
+          - { transaction_id: floor,     currency_lt: Euras,       declared_amount: 100.00,     transaction_date: 2024-01-10, country_lt: LIETUVA }
+    expect:
+      rows:
+        - { transaction_id: normal,   currency_code: EUR, amount_eur: 2500.00,    has_valid_price: true,  price_band: "2,500 - 4,999",    price_band_order: 4 }
+        - { transaction_id: symbolic, currency_code: EUR, amount_eur: 1.00,       has_valid_price: false, price_band: "Under 100",        price_band_order: 1 }
+        - { transaction_id: negative, currency_code: EUR, amount_eur: -300.00,    has_valid_price: false, price_band: "Under 100",        price_band_order: 1 }
+        - { transaction_id: absurd,   currency_code: EUR, amount_eur: 22244400.0, has_valid_price: false, price_band: "40,000 and above", price_band_order: 8 }
+        - { transaction_id: dollars,  currency_code: USD, amount_eur: null,       has_valid_price: false, price_band: "Non-EUR",          price_band_order: 0 }
+        - { transaction_id: floor,    currency_code: EUR, amount_eur: 100.00,     has_valid_price: true,  price_band: "100 - 999",        price_band_order: 2 }
+
+  - name: origin_and_document_classification
+    description: Country and document type are resolved through the seeds, with explicit fallbacks for unknown values.
+    model: int_transactions__enriched
+    given:
+      - input: ref('document_types')
+      - input: ref('countries')
+      - input: ref('currencies')
+      - input: ref('payment_methods')
+      - input: ref('stg_regitra__transactions')
+        rows:
+          - { transaction_id: domestic, country_lt: LIETUVA,                document_type_lt: Pirkimo-pardavimo sutartis, currency_lt: Euras, declared_amount: 1000, transaction_date: 2024-01-10, payment_method_lt: Grynaisiais pinigais }
+          - { transaction_id: german,   country_lt: VOKIETIJA,              document_type_lt: Sąskaita (mokėjimą patvirtinantis dokumentas), currency_lt: Euras, declared_amount: 1000, transaction_date: 2024-01-10, payment_method_lt: Bankiniu pavedimu }
+          - { transaction_id: typo,     country_lt: ATLANTIDA,              document_type_lt: Dovanojimo sutartis,        currency_lt: Euras, declared_amount: 1000, transaction_date: 2024-01-10, payment_method_lt: Nenurodyta }
+          - { transaction_id: unknown,  country_lt: "NEŽINOMA, NENURODYTA", document_type_lt: Naujas dokumento tipas,     currency_lt: Euras, declared_amount: 1000, transaction_date: 2024-01-10 }
+          - { transaction_id: missing,  country_lt: null,                   document_type_lt: Mainų sutartis,             currency_lt: Euras, declared_amount: 1000, transaction_date: 2024-01-10 }
+    expect:
+      rows:
+        - { transaction_id: domestic, origin_country: Lithuania,     is_import: false, document_type: Sale and purchase contract, transaction_category: sale,     is_market_sale: true,  payment_method: Cash }
+        - { transaction_id: german,   origin_country: Germany,       is_import: true,  document_type: Invoice (proof of payment),  transaction_category: sale,     is_market_sale: true,  payment_method: Bank transfer }
+        - { transaction_id: typo,     origin_country: Other,         is_import: true,  document_type: Gift contract,               transaction_category: gift,     is_market_sale: false, payment_method: Not specified }
+        - { transaction_id: unknown,  origin_country: Not specified, is_import: false, document_type: Unmapped,                    transaction_category: other,    is_market_sale: false, payment_method: Not specified }
+        - { transaction_id: missing,  origin_country: Not specified, is_import: false, document_type: Exchange contract,           transaction_category: exchange, is_market_sale: false, payment_method: Not specified }
+
+  - name: make_and_model_normalisation
+    description: Hand-typed makes collapse to one brand and the make is not repeated inside the model.
+    model: int_inspections__enriched
+    given:
+      - input: ref('vehicle_makes')
+      - input: ref('vehicle_classes')
+      - input: ref('fuel_types')
+      - input: ref('inspection_types')
+      - input: ref('inspection_conclusions')
+      - input: ref('stg_transeksta__inspections')
+        rows:
+          - { inspection_id: a, make_raw: "Skoda (CZ)",          model_raw: "Skoda Octavia", inspection_week: 2024-03-04, vehicle_class: M1 }
+          - { inspection_id: b, make_raw: "VOLKSWAGEN, VW",      model_raw: "Passat",        inspection_week: 2024-03-04, vehicle_class: M1 }
+          - { inspection_id: c, make_raw: "BAYER.MOT.WERKE-BMW", model_raw: "BMW 530D",      inspection_week: 2024-03-04, vehicle_class: M1 }
+          - { inspection_id: d, make_raw: "TOYOTA MEM (B)",      model_raw: "TOYOTA AVENSIS", inspection_week: 2024-03-04, vehicle_class: M1G }
+          - { inspection_id: e, make_raw: "CENZŪRUOTA",          model_raw: "CENZŪRUOTA",    inspection_week: 2024-03-04, vehicle_class: O2 }
+          - { inspection_id: f, make_raw: "SOME KIT CAR",        model_raw: null,            inspection_week: 2024-03-04, vehicle_class: L3E }
+    expect:
+      rows:
+        - { inspection_id: a, make: Skoda,         model: OCTAVIA,    is_passenger_car: true,  vehicle_category: Passenger cars }
+        - { inspection_id: b, make: Volkswagen,    model: PASSAT,     is_passenger_car: true,  vehicle_category: Passenger cars }
+        - { inspection_id: c, make: BMW,           model: 530D,       is_passenger_car: true,  vehicle_category: Passenger cars }
+        - { inspection_id: d, make: Toyota,        model: AVENSIS,    is_passenger_car: true,  vehicle_category: Passenger cars }
+        - { inspection_id: e, make: Not disclosed, model: CENZŪRUOTA, is_passenger_car: false, vehicle_category: Trailers }
+        - { inspection_id: f, make: Other,         model: Unknown,    is_passenger_car: false, vehicle_category: Motorcycles and mopeds }
+
+  - name: implausible_age_and_odometer_become_null
+    description: A typo in the year or the odometer must not leak into medians.
+    model: int_inspections__enriched
+    given:
+      - input: ref('vehicle_makes')
+      - input: ref('vehicle_classes')
+      - input: ref('fuel_types')
+      - input: ref('inspection_types')
+      - input: ref('inspection_conclusions')
+      - input: ref('stg_transeksta__inspections')
+        rows:
+          - { inspection_id: ok,        inspection_week: 2024-03-04, manufacture_year: 2010, odometer_km: 250000,  fuel_lt: "benzinas,elektra" }
+          - { inspection_id: new_car,   inspection_week: 2024-03-04, manufacture_year: 2024, odometer_km: 1,       fuel_lt: elektra }
+          - { inspection_id: future,    inspection_week: 2024-03-04, manufacture_year: 2025, odometer_km: 0,       fuel_lt: dyzelinas }
+          - { inspection_id: ancient,   inspection_week: 2024-03-04, manufacture_year: 1900, odometer_km: 6683888, fuel_lt: null }
+    expect:
+      rows:
+        - { inspection_id: ok,      vehicle_age_years: 14,   odometer_km: 250000, fuel_group: Hybrid,       inspection_year: 2024 }
+        - { inspection_id: new_car, vehicle_age_years: 0,    odometer_km: 1,      fuel_group: Electric,     inspection_year: 2024 }
+        - { inspection_id: future,  vehicle_age_years: null, odometer_km: null,   fuel_group: Diesel,       inspection_year: 2024 }
+        - { inspection_id: ancient, vehicle_age_years: null, odometer_km: null,   fuel_group: Not recorded, inspection_year: 2024 }
+
+  - name: odometer_intervals_and_rollbacks
+    description: Only consecutive first-attempt inspections of passenger cars are paired; a much lower reading is a suspected rollback.
+    model: int_inspections__odometer_intervals
+    given:
+      - input: ref('int_inspections__enriched')
+        rows:
+          - { vehicle_id: v1, inspection_id: i1, inspection_week: 2020-01-06, inspection_year: 2020, odometer_km: 100000, is_passenger_car: true,  is_first_attempt: true,  fuel_group: Diesel, vehicle_age_years: 10 }
+          - { vehicle_id: v1, inspection_id: i2, inspection_week: 2022-01-03, inspection_year: 2022, odometer_km: 130000, is_passenger_car: true,  is_first_attempt: true,  fuel_group: Diesel, vehicle_age_years: 12 }
+          - { vehicle_id: v1, inspection_id: i3, inspection_week: 2022-01-17, inspection_year: 2022, odometer_km: 130050, is_passenger_car: true,  is_first_attempt: false, fuel_group: Diesel, vehicle_age_years: 12 }
+          - { vehicle_id: v1, inspection_id: i4, inspection_week: 2024-01-01, inspection_year: 2024, odometer_km: 90000,  is_passenger_car: true,  is_first_attempt: true,  fuel_group: Diesel, vehicle_age_years: 14 }
+          - { vehicle_id: v2, inspection_id: j1, inspection_week: 2021-05-03, inspection_year: 2021, odometer_km: 50000,  is_passenger_car: true,  is_first_attempt: true,  fuel_group: Petrol, vehicle_age_years: 5 }
+          - { vehicle_id: v2, inspection_id: j2, inspection_week: 2023-05-01, inspection_year: 2023, odometer_km: 49500,  is_passenger_car: true,  is_first_attempt: true,  fuel_group: Petrol, vehicle_age_years: 7 }
+          - { vehicle_id: v3, inspection_id: k1, inspection_week: 2021-05-03, inspection_year: 2021, odometer_km: 50000,  is_passenger_car: false, is_first_attempt: true,  fuel_group: Diesel, vehicle_age_years: 5 }
+          - { vehicle_id: v3, inspection_id: k2, inspection_week: 2023-05-01, inspection_year: 2023, odometer_km: 90000,  is_passenger_car: false, is_first_attempt: true,  fuel_group: Diesel, vehicle_age_years: 7 }
+    expect:
+      rows:
+        - { inspection_id: i2, previous_odometer_km: 100000, distance_km: 30000,  days_between: 728, annual_km: 15052, is_lower_reading: false, is_suspected_rollback: false }
+        - { inspection_id: i4, previous_odometer_km: 130000, distance_km: -40000, days_between: 728, annual_km: null,  is_lower_reading: true,  is_suspected_rollback: true }
+        - { inspection_id: j2, previous_odometer_km: 50000,  distance_km: -500,   days_between: 728, annual_km: null,  is_lower_reading: true,  is_suspected_rollback: false }

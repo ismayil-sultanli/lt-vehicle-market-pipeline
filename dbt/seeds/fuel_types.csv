@@ -1,0 +1,11 @@
+fuel_lt,fuel_type,fuel_group
+dyzelinas,Diesel,Diesel
+benzinas,Petrol,Petrol
+"benzinas,dujos",Petrol and LPG,LPG
+dujos,Gas,LPG
+"benzinas,elektra",Petrol hybrid,Hybrid
+"dyzelinas,elektra",Diesel hybrid,Hybrid
+"benzinas,dujos,elektra",Petrol and LPG hybrid,Hybrid
+"dujos,elektra",Gas hybrid,Hybrid
+elektra,Electric,Electric
+"dyzelinas,dujos",Diesel and LPG,Diesel

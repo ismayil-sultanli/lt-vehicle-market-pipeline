@@ -1,0 +1,62 @@
+version: 2
+
+sources:
+  - name: transeksta
+    description: >
+      Periodic roadworthiness (technical) inspections from the centralised
+      database of TRANSEKSTA, the association of Lithuanian inspection companies,
+      published on the national open data portal. Dated to the week, with
+      pseudonymised vehicle and station identifiers.
+    config:
+      # The publisher stopped refreshing this dataset in May 2025. Staleness is
+      # reported as a warning but must not fail the pipeline.
+      freshness:
+        warn_after: { count: 30, period: day }
+      loaded_at_field: "cast(ta_savaites_data as timestamp)"
+    tables:
+      - name: apziura
+        description: One row per inspection as published (contains exact duplicates).
+        config:
+          external_location: >-
+            read_parquet('{{ env_var("LVM_RAW_URI", "") or env_var("LVM_DATA_DIR", "data") ~ "/raw" }}/apziura/*/*.parquet',
+            hive_partitioning = true, union_by_name = true)
+        columns:
+          - name: _id
+            description: Record identifier assigned by the open data platform.
+            data_tests: [not_null]
+          - name: vda_id
+            description: Row number assigned by the publisher.
+          - name: tp_id
+            description: Pseudonymised vehicle identifier, stable across inspections.
+          - name: tp_marke
+            description: Make as typed at the station (many spellings per brand).
+          - name: tp_modelis
+            description: Model as typed at the station.
+          - name: tp_klase
+            description: EU vehicle category (M1, N1, O2, L3e, ...).
+          - name: tp_kebulas
+            description: Body type code.
+          - name: tp_pag_metai
+            description: Year of manufacture.
+          - name: tp_kuras
+            description: Fuel type(s), comma separated (Lithuanian).
+          - name: tp_rida_km
+            description: Odometer reading in kilometres.
+          - name: ta_stoties_kodas
+            description: Pseudonymised inspection station code.
+          - name: ta_stoties_savivaldybe
+            description: Municipality of the inspection station.
+          - name: ta_tipas
+            description: Inspection type (periodic, re-inspection, new-vehicle documents).
+          - name: ta_isvada
+            description: Conclusion (no, minor, major or dangerous defects).
+          - name: ar_ta_islaikyta
+            description: Whether the inspection was passed.
+          - name: ta_savaites_data
+            description: Inspection date, precise to the week.
+          - name: ta_periodiskumas_men
+            description: Validity of the inspection in months.
+          - name: inspection_month
+            description: Partition key (YYYY-MM of ta_savaites_data), from the file path.
+          - name: _extracted_at
+            description: UTC timestamp of the extract run that produced the row.

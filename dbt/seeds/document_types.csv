@@ -1,0 +1,20 @@
+document_type_lt,document_type_en,transaction_category,is_market_sale
+Pirkimo-pardavimo sutartis,Sale and purchase contract,sale,true
+Sąskaita (mokėjimą patvirtinantis dokumentas),Invoice (proof of payment),sale,true
+Lizingo sutarties pabaigos aktas (pažyma),Lease-end transfer certificate,lease_end,false
+ENTP priėmimo – perdavimo aktas,End-of-life vehicle handover act,scrappage,false
+Paveldėjimo teisės liudijimas,Certificate of inheritance,inheritance,false
+Nuosavybės teisės liudijimas,Certificate of ownership,other,false
+Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),Registration document (import of own property),own_import,false
+Pagaminimo deklaracija,Declaration of manufacture,other,false
+Dovanojimo sutartis,Gift contract,gift,false
+Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),Court or law-enforcement decision,legal,false
+Viešame prekių aukcione parduoto turto perdavimo aktas,Public auction transfer act,auction,false
+Sandorio anuliavimo dokumentas,Transaction annulment document,annulment,false
+Mainų sutartis,Exchange contract,exchange,false
+"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",Registration request approved by the Ministry of Foreign Affairs,other,false
+Juridinio asmens reorganizavimo dokumentas,Legal entity reorganisation document,corporate,false
+Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),Declaration of joint marital ownership,family,false
+Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,State or municipal asset transfer document,corporate,false
+Paramos sutartis,Charitable donation contract,gift,false
+Laimėjimą patvirtinantis dokumentas,Prize confirmation document,other,false

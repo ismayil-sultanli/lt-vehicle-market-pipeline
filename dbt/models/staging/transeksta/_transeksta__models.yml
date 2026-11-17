@@ -1,0 +1,49 @@
+version: 2
+
+models:
+  - name: stg_transeksta__inspections
+    description: >
+      Technical inspections, typed, renamed and de-duplicated on their business
+      content. Categorical values are still in Lithuanian.
+    columns:
+      - name: inspection_id
+        description: Surrogate key over every published attribute of the inspection.
+        data_tests: [unique, not_null]
+      - name: record_id
+        description: Platform record id of the version that was kept.
+        data_tests: [unique, not_null]
+      - name: vehicle_id
+        data_tests: [not_null]
+      - name: inspection_week
+        data_tests: [not_null]
+      - name: is_passed
+        data_tests: [not_null]
+      - name: inspection_type_lt
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('inspection_types')
+                field: inspection_type_lt
+      - name: conclusion_lt
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('inspection_conclusions')
+                field: conclusion_lt
+      - name: fuel_lt
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('fuel_types')
+                field: fuel_lt
+              config:
+                severity: warn
+      - name: vehicle_class
+        data_tests:
+          - relationships:
+              arguments:
+                to: ref('vehicle_classes')
+                field: vehicle_class
+              config:
+                severity: warn

@@ -1,0 +1,59 @@
+name: lt_vehicle_market
+version: "0.1.0"
+config-version: 2
+profile: lt_vehicle_market
+
+model-paths: ["models"]
+seed-paths: ["seeds"]
+test-paths: ["tests"]
+macro-paths: ["macros"]
+target-path: "target"
+clean-targets: ["target", "dbt_packages"]
+
+vars:
+  # Declared prices outside this EUR range are treated as symbolic / data-entry
+  # noise and excluded from price statistics (they still count as transactions).
+  min_valid_price_eur: 100
+  max_valid_price_eur: 500000
+  # The registry's transaction module went live in May 2021; earlier documents
+  # are only partially present, so those months are flagged as incomplete.
+  coverage_start_date: "2021-05-01"
+  # About 10% of sales reach the registry more than a month after the contract
+  # date (20% for vehicles bought abroad), so the newest months keep growing.
+  # This many calendar months, counting the open one, are flagged as incomplete.
+  settling_months: 3
+  # --- fleet (inspections) ---
+  # Odometer readings above this are treated as typos.
+  max_valid_odometer_km: 1500000
+  # A reading at least this far below the previous one counts as a suspected
+  # rollback rather than a keying slip.
+  odometer_rollback_threshold_km: 10000
+  # "Current fleet" figures use inspections from this many months before the
+  # newest one: passenger cars are inspected every 24 months, so the window
+  # sees each active car about once.
+  fleet_window_months: 24
+  # Smallest group reported in the model ranking.
+  min_vehicles_per_model: 300
+
+  # Lithuania restricted cash settlements that EXCEED this amount from 2022-11-01
+  # (a sale at exactly the limit may still be paid in cash).
+  cash_limit_eur: 5000
+  cash_limit_effective_date: "2022-11-01"
+
+models:
+  lt_vehicle_market:
+    staging:
+      # table, not view: the dedup window over ~9M rows would otherwise be
+      # recomputed by every downstream model and test
+      +materialized: table
+      +schema: staging
+    intermediate:
+      +materialized: view
+      +schema: intermediate
+    marts:
+      +materialized: table
+      +schema: marts
+
+seeds:
+  lt_vehicle_market:
+    +schema: reference

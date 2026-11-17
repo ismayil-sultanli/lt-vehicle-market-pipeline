@@ -1,0 +1,206 @@
+version: 2
+
+models:
+  - name: fct_inspections
+    description: One row per technical inspection, with English categories and a normalised make and model.
+    columns:
+      - name: inspection_id
+        data_tests: [unique, not_null]
+      - name: vehicle_id
+        data_tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_vehicles')
+                field: vehicle_id
+      - name: inspection_week
+        data_tests: [not_null]
+      - name: inspection_type
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Periodic inspection", "Re-inspection", "Documents for a new vehicle"]
+      - name: conclusion
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["No defects", "Minor defects", "Major defects", "Dangerous defects", "Unmapped"]
+      - name: is_passed
+        data_tests: [not_null]
+      - name: make
+        description: Brand after alias resolution; `Other` for rare spellings, `Not disclosed` where the publisher censored it.
+        data_tests: [not_null]
+      - name: model
+        data_tests: [not_null]
+      - name: vehicle_category
+        data_tests: [not_null]
+      - name: fuel_group
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["Diesel", "Petrol", "LPG", "Hybrid", "Electric", "Not recorded"]
+      - name: vehicle_age_years
+        description: Inspection year minus manufacture year; NULL when the year is implausible.
+        data_tests:
+          - accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 80
+      - name: odometer_km
+        description: Odometer reading; NULL when zero or above the configured maximum.
+        data_tests:
+          - accepted_range:
+              arguments:
+                min_value: 1
+                max_value: "{{ var('max_valid_odometer_km') }}"
+
+  - name: dim_vehicles
+    description: One row per vehicle, described by its most recent inspection.
+    columns:
+      - name: vehicle_id
+        data_tests: [unique, not_null]
+      - name: inspections
+        data_tests: [not_null]
+      - name: last_inspection_week
+        data_tests: [not_null]
+
+  - name: agg_fleet_fuel_yearly
+    description: Fuel mix, age and pass rate of passenger cars inspected each year.
+    config:
+      contract:
+        enforced: true
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [inspection_year, fuel_group]
+    columns:
+      - name: inspection_year
+        data_type: integer
+        data_tests: [not_null]
+      - name: fuel_group
+        data_type: varchar
+        data_tests: [not_null]
+      - name: vehicles
+        data_type: bigint
+        description: Distinct passenger cars presented for a periodic inspection in the year.
+      - name: median_age_years
+        data_type: double
+      - name: first_pass_rate
+        data_type: double
+      - name: share_of_year
+        data_type: double
+        data_tests:
+          - not_null
+          - accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 1
+      - name: is_complete_year
+        data_type: boolean
+        data_tests: [not_null]
+
+  - name: agg_fleet_makes_yearly
+    description: Passenger cars per make and year.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [inspection_year, make]
+    columns:
+      - name: first_pass_rate
+        data_tests:
+          - accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 1
+
+  - name: agg_fleet_models
+    description: The current passenger-car fleet by make and model (groups above the configured minimum size).
+    config:
+      contract:
+        enforced: true
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [make, model]
+    columns:
+      - name: make
+        data_type: varchar
+        data_tests: [not_null]
+      - name: model
+        data_type: varchar
+        data_tests: [not_null]
+      - name: vehicles
+        data_type: bigint
+        data_tests: [not_null]
+      - name: median_manufacture_year
+        data_type: integer
+      - name: median_age_years
+        data_type: double
+      - name: median_odometer_km
+        data_type: integer
+      - name: first_pass_rate
+        data_type: double
+        data_tests:
+          - accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 1
+      - name: diesel_share
+        data_type: double
+
+  - name: agg_fleet_municipalities
+    description: The current passenger-car fleet by municipality of the inspection station.
+    columns:
+      - name: municipality
+        data_tests: [unique, not_null]
+      - name: diesel_share
+        data_tests:
+          - accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 1
+
+  - name: agg_pass_rate_by_age
+    description: First-attempt pass rate of the current fleet by vehicle age and fuel.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [vehicle_age_years, fuel_group]
+
+  - name: agg_annual_mileage
+    description: Median distance driven per year by fuel and age band, from consecutive inspections.
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [fuel_group, age_band]
+    columns:
+      - name: median_annual_km
+        data_tests:
+          - not_null
+          - accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 150000
+
+  - name: agg_odometer_checks_yearly
+    description: Share of passenger cars arriving with a lower odometer reading than at the previous inspection.
+    columns:
+      - name: inspection_year
+        data_tests: [unique, not_null]
+      - name: suspected_rollback_rate
+        data_tests:
+          - accepted_range:
+              arguments:
+                min_value: 0
+                max_value: 1
+
+  - name: agg_fleet_status
+    description: One row describing the inspection subject area and how many duplicate rows were removed.
+    columns:
+      - name: inspections
+        data_tests: [not_null]
+      - name: duplicate_rows_removed
+        data_tests:
+          - accepted_range:
+              arguments:
+                min_value: 0

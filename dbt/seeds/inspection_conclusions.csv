@@ -1,0 +1,5 @@
+conclusion_lt,conclusion,severity_rank
+Be trūkumų,No defects,0
+Nedideli trukūmai,Minor defects,1
+Dideli trukūmai,Major defects,2
+Pavojingi trukūmai,Dangerous defects,3

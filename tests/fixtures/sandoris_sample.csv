@@ -1,0 +1,489 @@
+_id,dok_id,veiklos_id,dok_rusis,isd_data,salis,suma,valiuta,mokejimo_budas,iraso_mod_data
+009c2915-2730-4a09-931a-a182f964d165,00a621207684cec,1363845fd329dd2,Mainų sutartis,2022-03-02T00:00:00,LIETUVA,1900.0,Euras,Nenurodyta,2022-03-02T15:58:23
+00b7b6f8-a747-41fa-a084-ed64c1365b55,a5b5fe4fc2ce5e8,bd4f6295ceb312b,Pirkimo-pardavimo sutartis,2022-08-05T00:00:00,LIETUVA,6150.0,Euras,Nenurodyta,2022-08-05T16:24:41
+0174f72d-20a8-46fa-a8db-3772ce4434e8,101544c6949b1c4,be1f5dd039a6678,Pirkimo-pardavimo sutartis,2021-12-23T00:00:00,LIETUVA,2900.0,Euras,Bankiniu pavedimu,2021-12-28T11:26:19
+02487d2c-2608-490c-a4b6-76359da9ab33,6c0c62511c65291,d65d64b5ee41dd2,Pirkimo-pardavimo sutartis,2026-01-05T00:00:00,LIETUVA,2500.0,Euras,Grynaisiais pinigais,2026-01-05T17:02:18
+0277de83-354c-4eec-97e9-e33fd23ddfc8,2126d58a6ba324d,a1e8c9de139f565,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-08-27T00:00:00,VOKIETIJA,16907.63,Euras,Bankiniu pavedimu,2024-09-16T15:32:12
+03037a39-f218-4058-b899-dad5ae895a96,a4a3e15a053885d,5b366de7842d686,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-02-10T00:00:00,LIETUVA,800.0,Euras,Nenurodyta,2022-02-22T22:13:08
+037ac950-d37f-442d-8958-08a0c3b34c9b,f7cd5740b147552,836a551a4e85991,Pirkimo-pardavimo sutartis,2021-05-11T00:00:00,LIETUVA,500.0,Euras,Grynaisiais pinigais,2021-05-18T14:58:42
+03b33423-3dee-4682-851c-1f396ccb9490,e4cdaf2b50fea5f,35f4464f0bbfa1d,Pirkimo-pardavimo sutartis,2022-02-20T00:00:00,LIETUVA,150.0,Euras,Grynaisiais pinigais,2022-03-01T20:45:18
+0426f2e6-4eef-4297-aed2-01aa3525685f,baebca98408dcdd,adbf1d1b5fc6e8d,Dovanojimo sutartis,2024-10-28T00:00:00,LIETUVA,200.0,Euras,Nenurodyta,2024-10-29T10:40:54
+04b00a97-6642-443c-b751-6fa2e00a06d5,01dde6d97b45ce5,bfd008807d8efbf,Pirkimo-pardavimo sutartis,2024-10-29T00:00:00,LIETUVA,4600.0,Euras,Grynaisiais pinigais,2024-11-06T13:15:32
+0542dd07-e02e-4957-a49a-8b757d913638,d95dbe5d12cf9e8,508abf451aa1eb3,Pirkimo-pardavimo sutartis,2024-02-06T00:00:00,LIETUVA,70.0,Euras,Grynaisiais pinigais,2024-02-06T20:20:56
+0547fd56-c005-462c-80f8-af8373f1a19e,40f04dde5d50c8a,325e979ca0fd71b,Pirkimo-pardavimo sutartis,2023-03-10T00:00:00,LIETUVA,3000.0,Euras,Grynaisiais pinigais ir bankiniu pavedimu,2023-03-11T12:33:39
+0571fa90-6b54-4cff-b68d-0af62ec9c930,c80d280f94a3ba2,7d9c9ee069d8cae,Pirkimo-pardavimo sutartis,2021-09-27T00:00:00,LIETUVA,900.0,Euras,Grynaisiais pinigais,2021-09-29T10:52:23
+05ad0e0a-7c04-455e-8639-522b9a7826d5,710b25af047cbda,e210e6296f1261a,Pirkimo-pardavimo sutartis,2025-08-17T00:00:00,LIETUVA,600.0,Euras,Grynaisiais pinigais,2025-08-17T15:17:00
+05e27f45-d991-418e-90ea-1b7c3bb99882,d3936d7d9be68c2,6e9f217a49984de,Sąskaita (mokėjimą patvirtinantis dokumentas),2021-07-24T00:00:00,LIETUVA,4300.0,Euras,Grynaisiais pinigais,2021-08-13T13:04:48
+05e6bcd2-0dd4-4e88-a8e8-b339ea4a6f18,43eb274eb09c63f,1dba1d7d8cdba59,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-03-16T00:00:00,LIETUVA,6500.0,Euras,Grynaisiais pinigais,2024-03-20T09:40:35
+0609ce14-116b-4e46-ad46-fdc3fc7a3556,d3c581634ddcf4d,db50c09e69c9921,Pirkimo-pardavimo sutartis,2022-02-22T00:00:00,LIETUVA,2500.0,Euras,Grynaisiais pinigais,2022-02-23T09:16:30
+065f737f-599d-49ae-8fa2-0dc19b2d32d7,db1b232c4314224,93ce321b0f1fa36,Pirkimo-pardavimo sutartis,2025-03-26T00:00:00,LIETUVA,34323.0,Euras,Bankiniu pavedimu,2025-03-26T15:56:13
+06aae77b-d4bf-44f7-913c-e509de6db671,edd95419c943e06,341c33a52a95098,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2024-03-19T00:00:00,LIETUVA,8700.0,Euras,Nenurodyta,2024-03-19T15:16:26
+084184b4-c5bf-431c-a8b9-ec64739b950d,5662751264f749a,f2919788b548310,Pirkimo-pardavimo sutartis,2024-09-11T00:00:00,LIETUVA,13000.0,Euras,Bankiniu pavedimu,2024-09-11T08:43:47
+08445a6e-27e9-4aa3-b4b4-3ee0f6b59ec4,ebadbf8fd3819e0,ae85f9d94826732,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-07-10T00:00:00,LIETUVA,5000.0,Euras,Grynaisiais pinigais,2024-07-10T15:14:39
+08547f21-f801-43b1-83f0-f4f065bd49ca,aa4a4989c3eb30c,8f621369652f331,Pirkimo-pardavimo sutartis,2021-12-09T00:00:00,LIETUVA,14400.0,Euras,Bankiniu pavedimu,2021-12-09T13:50:30
+0856b434-73f5-4761-898a-96b6dfad794f,a7a75c6a39350ca,e2d30038bb95766,Pirkimo-pardavimo sutartis,2023-08-04T00:00:00,LIETUVA,17000.0,Euras,Bankiniu pavedimu,2023-08-04T11:05:39
+085d9479-1020-421a-af7b-368a12443e83,c453ef07eade080,8090a404d7c640b,Sandorio anuliavimo dokumentas,2022-09-19T00:00:00,LIETUVA,7890.0,Euras,Bankiniu pavedimu,2023-01-19T11:16:51
+09fdc1ea-7594-4edc-b407-91a53ceb122c,9d3944be42b41be,db77e1a68d92f41,Pirkimo-pardavimo sutartis,2021-08-03T00:00:00,LIETUVA,150.29,Euras,Grynaisiais pinigais,2021-08-03T11:25:53
+0a4511fb-8470-458c-a64b-8509be00efd7,cfde643dd92b73d,edfa92bd0a85a19,Pirkimo-pardavimo sutartis,2023-10-03T00:00:00,VOKIETIJA,3700.0,Euras,Grynaisiais pinigais,2023-10-11T18:00:56
+0ad04216-4bb8-4123-87ce-f2ebdb313876,b9aacdd44cca6ec,e91d67c553faa7a,Pirkimo-pardavimo sutartis,2024-09-23T00:00:00,LIETUVA,6965.97,Euras,Bankiniu pavedimu,2024-09-25T14:03:36
+0bdecc2e-e624-4515-af58-10f67bc81a85,f55844cd86f9a81,bfc26169ae6d4f5,Mainų sutartis,2021-03-01T00:00:00,VOKIETIJA,1000.0,Euras,Grynaisiais pinigais,2021-05-07T08:19:22
+0d7e8ef8-d481-4959-b4f9-e037bb2f1984,ecb02683896c77b,466fe75d3325971,Paramos sutartis,2024-02-08T00:00:00,LIETUVA,9990.0,Euras,Nenurodyta,2024-03-04T10:49:45
+0e39e29f-dfea-4fa4-9bd7-b71daba1b64b,78a312fa6a22f02,3c0f44be3bc8d4e,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2026-05-08T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2026-05-27T12:39:08
+0ec89126-324c-495c-ad3e-5ab83c9aa8c7,717de964b50243c,613ddfd61c43c1c,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2026-06-26T00:00:00,ESTIJA,722.0,Euras,Bankiniu pavedimu,2026-06-27T13:32:46
+0f046306-6889-43d5-9e29-7443f4208c02,f0954a33a1a4634,8acb288c8903624,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-02-16T00:00:00,LIETUVA,12299.0,Euras,Bankiniu pavedimu,2024-02-20T07:55:27
+0f756ea1-4fd0-49b3-bfec-9f0d23407ae1,82dc77baf1371f5,02ca3f13c1ce1c2,Pagaminimo deklaracija,2021-09-08T00:00:00,LIETUVA,200.0,Euras,Nenurodyta,2021-09-08T15:03:53
+107ad360-26e0-4c01-9e06-63f8ba2de06f,2e88fc83b0b69b1,3684fd0696ac2e5,Pirkimo-pardavimo sutartis,2025-02-22T00:00:00,LIETUVA,1600.0,Euras,Grynaisiais pinigais,2025-02-22T22:06:56
+1092d8a1-cc33-4a6f-9856-682bb8a9ae6e,a7ca0385173f463,c0c73f0dc653ad3,Pirkimo-pardavimo sutartis,2022-05-20T00:00:00,LIETUVA,4000.0,Euras,Grynaisiais pinigais,2022-06-22T11:13:04
+10fef800-f9c3-4a66-b0b4-a3ba4bc295da,11bceffd88e2650,ac0428fc69ec176,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-08-18T00:00:00,LIETUVA,8590.0,Euras,Bankiniu pavedimu,2023-08-18T11:55:35
+112cfcfd-4913-4083-bc39-1a9cc0e8fce7,9f4311982df69fa,1be86d5eccfe164,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-02-09T00:00:00,JUNGTINĖS AMERIKOS VALSTIJOS,3450.0,JAV doleris,Nenurodyta,2023-01-21T13:14:50
+124f858e-ac49-470e-aa12-9e624c3872c6,6cc775bbbc84331,3dc3b4f576cf1d1,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-11-22T00:00:00,LIETUVA,15800.0,Euras,Bankiniu pavedimu,2022-11-29T10:25:00
+128dee69-0c15-43a8-ba6a-c79bbe87b765,58dc39c302e7793,149c66dd268448c,Mainų sutartis,2024-08-26T00:00:00,LIETUVA,4950.0,Euras,Nenurodyta,2024-08-26T12:08:09
+12a33d8c-1ca0-4fcc-8f0d-55851efd91ed,32a3a56b821a8fe,390d8879212f60a,Pirkimo-pardavimo sutartis,2022-01-28T00:00:00,LIETUVA,100.0,Euras,Grynaisiais pinigais,2022-01-28T20:50:45
+136f3ee6-91ef-4a6e-a21d-6789288244cd,8667c5e414a7442,e27a082bfc255bf,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-11-05T00:00:00,PRANCŪZIJA,11783.0,Euras,Bankiniu pavedimu,2024-11-12T10:12:18
+13ea1eb7-8df4-44ee-918f-d9b260827281,94422241c766013,6fa159b170e6912,Pirkimo-pardavimo sutartis,2023-11-02T00:00:00,LIETUVA,300.0,Euras,Grynaisiais pinigais,2023-11-06T09:51:23
+13fe8aea-8376-4d70-bf77-3a41111c6f26,e505cde34def5b5,8d8ae3770426df8,Lizingo sutarties pabaigos aktas (pažyma),2023-08-25T00:00:00,LIETUVA,17466.94,Euras,Bankiniu pavedimu,2023-08-31T14:57:19
+143b03e5-67be-4058-b529-e138b8d1f5df,225f79c55232dd2,5ca94cf7157572e,Nuosavybės teisės liudijimas,2023-08-01T00:00:00,LIETUVA,220.0,Euras,Nenurodyta,2023-08-22T12:49:10
+147a4c7b-9be4-45c9-b88b-58a9db37a3c0,95af3afb3a198ed,40c1398ff50d6cb,Paveldėjimo teisės liudijimas,2025-05-05T00:00:00,LIETUVA,500.0,Euras,Nenurodyta,2025-05-08T14:21:08
+154908ab-17b4-4c5c-977f-ed152c2b87e9,077061d96f60862,93cfa425d524237,Pirkimo-pardavimo sutartis,2025-06-16T00:00:00,LIETUVA,4999.0,Euras,Grynaisiais pinigais,2025-06-17T13:31:39
+155b3379-2a41-40b4-a3d9-a9bc432afffe,9f051651bf02c2c,dd35d201810948d,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-11-14T00:00:00,LIETUVA,2800.0,Euras,Grynaisiais pinigais,2024-11-14T13:04:25
+15d07abb-0285-4eab-bf73-d839f82053ac,d1aa0260fcb3b11,02ff5bf648223fc,Pirkimo-pardavimo sutartis,2025-01-02T00:00:00,LIETUVA,4900.0,Euras,Grynaisiais pinigais,2025-01-03T10:27:17
+166b1b99-1f53-4a29-8a59-b233d3c6b9f1,3c75ab0a35b0a48,6953a4fcdb91b35,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2025-06-17T00:00:00,LIETUVA,8978.22,Euras,Nenurodyta,2025-09-26T10:29:51
+171b846a-1f5d-4302-85c3-5bcb758087af,4ee36b9984cc552,2323a3f5f8c5d8f,Sąskaita (mokėjimą patvirtinantis dokumentas),2025-03-10T00:00:00,JUNGTINĖ KARALYSTĖ,270.0,DB svarai,Bankiniu pavedimu,2025-04-01T09:46:35
+17240652-9698-4fdd-bd5f-a80ada09cbf8,313a82e3e549f60,10c8d717a4eb4a6,Laimėjimą patvirtinantis dokumentas,2025-03-25T00:00:00,LIETUVA,24200.0,Euras,Nenurodyta,2025-03-25T13:11:19
+179f3be7-695e-4de0-9b53-5182a4942023,4dfb2e9d8b8d39f,df6d9f4ae4738fe,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-09-23T00:00:00,LIETUVA,1250.0,Euras,Bankiniu pavedimu,2023-09-24T08:41:18
+17a705ae-74f7-486e-83c6-1769104b2156,43c05cb11043b38,fd884b0f0f3d8a2,Pirkimo-pardavimo sutartis,2025-06-07T00:00:00,LIETUVA,22000.0,Euras,Bankiniu pavedimu,2025-06-07T21:27:00
+186fc916-5545-4a9f-a5bd-d7ede6af283b,9d69049da87ac6e,9c3775186e1f362,Pirkimo-pardavimo sutartis,2025-11-10T00:00:00,LIETUVA,620.0,Euras,Grynaisiais pinigais,2025-11-19T11:53:02
+1adc221a-60ab-4438-a194-5805b3412369,2960003eaf5e709,b4eb8480eeaa2b7,Lizingo sutarties pabaigos aktas (pažyma),2024-10-09T00:00:00,LIETUVA,9900.0,Euras,Bankiniu pavedimu,2024-10-11T14:04:35
+1b402b29-cb31-454e-9a3f-dee420c171ad,85ab7f492f515af,9691cf89c089d18,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2022-12-16T00:00:00,LIETUVA,5000.0,Euras,Nenurodyta,2022-12-16T10:39:30
+1b6b41f2-e059-4d1b-a679-ea1c8a775afd,f215dfca706779d,7db1b8dc0af987a,ENTP priėmimo – perdavimo aktas,2022-03-29T00:00:00,LIETUVA,200.0,Euras,Grynaisiais pinigais,2022-03-29T12:12:07
+1be69ee5-db81-43d6-b54a-337c50f5e45e,cd65188ec96340c,5d08f951175492b,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2023-02-21T00:00:00,LIETUVA,200.0,Euras,Nenurodyta,2023-02-21T16:31:49
+1ca503fe-2138-4d40-86f5-21a82e2e8638,c5a93d6bdacebe8,660d410a5cf8818,Viešame prekių aukcione parduoto turto perdavimo aktas,2023-12-04T00:00:00,LIETUVA,2856.0,Euras,Bankiniu pavedimu,2023-12-11T14:15:46
+1d39fa80-a97b-4a7c-951a-cf5b96ffd0d3,c3dd205c9b76a08,065183b4075d000,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2022-06-21T00:00:00,LIETUVA,2400.0,Euras,Grynaisiais pinigais,2022-06-21T21:54:11
+1df1ec9a-627b-4108-888d-d3603d4d7d0e,164c07e92967f66,0bf0adefa0a806e,Sąskaita (mokėjimą patvirtinantis dokumentas),2021-10-04T00:00:00,LIETUVA,16490.0,Euras,Bankiniu pavedimu,2021-10-04T15:19:07
+1ec5e7c8-1f21-42e3-8474-65a2bb98525f,3ec41b8947e01f5,4486c29491421ce,Paveldėjimo teisės liudijimas,2021-06-16T00:00:00,LIETUVA,800.0,Euras,Nenurodyta,2021-07-02T08:03:24
+1f78ef96-c40a-448c-aa02-649b34f293aa,842a6ba8e8cd75b,210a4f7621c63df,Pirkimo-pardavimo sutartis,2024-05-10T00:00:00,LIETUVA,17000.0,Euras,Grynaisiais pinigais,2024-05-10T12:49:49
+1fdc7e2f-c212-4e17-989a-d97805b01633,e2f6be7aea2515e,5d0d62d3f4214aa,Laimėjimą patvirtinantis dokumentas,2024-11-29T00:00:00,BELGIJA,7188.0,Euras,Bankiniu pavedimu,2024-12-27T11:25:39
+204deb49-b4c6-48e1-a9d1-7bbd26f81f55,d6635a66400837a,f014d51364fd417,ENTP priėmimo – perdavimo aktas,2021-07-07T00:00:00,LIETUVA,3650.0,Euras,Grynaisiais pinigais,2021-09-22T16:10:47
+2086728d-210d-4648-838a-efb67d2e66da,ff8691bf8dab9ca,1925ea85bdf0e28,Pirkimo-pardavimo sutartis,2022-10-25T00:00:00,LIETUVA,20000.0,Euras,Bankiniu pavedimu,2022-10-26T15:50:12
+21039038-0f12-4b38-a3fe-4bc2d406e41e,7d7adbe58075e84,6a8a90a25ae73b0,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2024-11-19T00:00:00,ESTIJA,53052.0,Euras,Bankiniu pavedimu,2024-11-19T11:37:41
+21129031-c50b-441b-a1ff-aad17712289c,86ca46ff423f4fc,a66b571e631adc2,Dovanojimo sutartis,2025-08-06T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2025-08-12T16:53:23
+21429649-a775-43a0-907e-a0211bee77f9,14b4c486596b2dc,80f87a291ca7906,Pirkimo-pardavimo sutartis,2022-08-10T00:00:00,LIETUVA,4000.0,Euras,Grynaisiais pinigais,2022-08-24T11:54:07
+21fc61ed-3016-4d3d-b063-e4454b0b1f9e,9d6b24db8b96f87,f648b9bdbbd4809,Pirkimo-pardavimo sutartis,2024-11-12T00:00:00,NYDERLANDAI,80400.0,Euras,Bankiniu pavedimu,2025-02-05T08:57:15
+226fbca8-ad1d-4795-a9b6-61a463c4af2f,98d3165bbbfc71b,74f175bc08e4dda,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2025-12-08T00:00:00,PRANCŪZIJA,1400.0,Euras,Bankiniu pavedimu,2025-12-10T17:59:04
+228e9ee2-96b3-446f-87cb-d848698d4338,5e6bcac09b67984,440e57c97adc4ab,Paramos sutartis,2025-05-02T00:00:00,LIETUVA,1500.0,Euras,Nenurodyta,2025-05-20T11:25:07
+23375c6e-732a-4d04-aa60-96ee6c87c3d1,cd22b8143ae5179,aef4ec5a95c0ef7,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2022-08-17T00:00:00,LIETUVA,2500.0,Euras,Nenurodyta,2022-08-17T11:03:13
+23509a76-041c-44b6-9fc8-6328554b71be,a1a1d3ac6b306d3,2ad202f3555b81a,Lizingo sutarties pabaigos aktas (pažyma),2025-11-28T00:00:00,LIETUVA,23280.5,Euras,Bankiniu pavedimu,2025-12-01T11:00:03
+236292b0-6759-457a-8f6a-5fb2638d4735,de2e3688efaa263,dc7321c39288299,Sąskaita (mokėjimą patvirtinantis dokumentas),2021-11-12T00:00:00,LIETUVA,7200.0,Euras,Bankiniu pavedimu,2021-12-29T22:07:54
+23d3e7ce-948e-4f84-ae47-795615289d0b,5c1f10ff69edcac,b87860a689c0f40,Juridinio asmens reorganizavimo dokumentas,2021-10-31T00:00:00,LIETUVA,69986.27,Euras,Nenurodyta,2021-12-06T16:56:30
+24110cc4-8a60-4daa-b41b-087742696f5a,e642cc929fb1834,afd5a4774fed815,Paveldėjimo teisės liudijimas,2024-11-06T00:00:00,LIETUVA,2000.0,Euras,Nenurodyta,2025-03-29T12:50:57
+24429259-663b-415c-89ed-5731ecbd5011,52dd3dd5a551ede,1c2b2d2883be6fe,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2022-09-28T00:00:00,LIETUVA,224.0,Euras,Grynaisiais pinigais,2022-10-05T07:14:08
+244484b4-7633-4984-a37e-4d71d970a889,262787d17899145,cfba5495aba104f,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2022-08-21T00:00:00,LIETUVA,400.0,Euras,Bankiniu pavedimu,2022-08-24T18:31:16
+24cbf91c-fd12-425e-9a2d-4a637c3036fa,1fb0de59cc7b64a,2e555c1bcb1d2fe,Paveldėjimo teisės liudijimas,2026-08-25T00:00:00,LIETUVA,700.0,Euras,Nenurodyta,2026-09-15T14:11:21
+24e34c24-d794-4c07-89aa-af5cf7ac0d4a,a8f5d1d0dc605ea,59039ccf25c2aa6,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-06-17T00:00:00,PRANCŪZIJA,8792.0,Euras,Bankiniu pavedimu,2024-06-18T20:57:54
+27561fbd-f0b2-4f19-8c15-b177e79fcbac,041aa03fd886faf,4cb1937fd3cb200,Laimėjimą patvirtinantis dokumentas,2024-12-03T00:00:00,LIETUVA,100.0,Euras,Grynaisiais pinigais,2024-12-14T17:32:36
+27739f98-d14b-4e58-afc9-b11426c2bf50,54630b8a30dd784,d1cc368f803b26d,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-02-17T00:00:00,LIETUVA,24020.0,Euras,Nenurodyta,2023-03-02T18:17:47
+283dd6ed-2e4f-4464-998f-57ebced2a26e,7b32dc2b24f9d80,090712f12f771db,Viešame prekių aukcione parduoto turto perdavimo aktas,2023-03-29T00:00:00,LIETUVA,527.0,Euras,Bankiniu pavedimu,2023-03-30T15:29:48
+2868da55-a2fd-46c4-a056-924e3fdc0d07,d0aeef07a25aad4,cfa5f2333afa171,Sandorio anuliavimo dokumentas,2024-06-07T00:00:00,LIETUVA,1125.0,Euras,Grynaisiais pinigais,2024-06-07T10:39:09
+288c9525-9156-4d3e-9257-85fc018fe9a2,5c9e1f29414b0ab,3d4cf4f97ddbfba,Juridinio asmens reorganizavimo dokumentas,2021-10-31T00:00:00,LIETUVA,34739.1,Euras,Nenurodyta,2021-12-06T16:56:28
+2a35896d-2921-442e-9435-97e5018b26fb,8d6d5f5f838f127,3636bad6c796537,Laimėjimą patvirtinantis dokumentas,2026-01-06T00:00:00,LIETUVA,31700.0,Euras,Nenurodyta,2026-01-09T13:01:25
+2a5542e1-5973-41e5-a7cd-1a4621b9b0a3,b134f2b5624d439,47c7b853ffba73d,Pirkimo-pardavimo sutartis,2022-05-10T00:00:00,LIETUVA,3030.0,Euras,Bankiniu pavedimu,2022-05-11T13:13:08
+2a5b6e75-0cc7-40f1-bfd3-898c0dd3adcc,bf0335cdc2c1b03,bffca172424f87b,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-05-08T00:00:00,LIETUVA,3200.0,Euras,Grynaisiais pinigais,2023-05-11T08:15:13
+2ad0a1f1-d026-4b11-9354-ca80c63dcf6b,d54bf73de7d2af9,728e8a06944bc52,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-05-29T00:00:00,LIETUVA,51000.0,Euras,Nenurodyta,2023-05-30T10:36:17
+2d04bb32-f74d-40d8-9e54-c1918f11e560,2e0a9a5ff4a911e,d30bb3ac3f265e8,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-04-05T00:00:00,LIETUVA,14520.0,Euras,Nenurodyta,2022-04-20T13:04:04
+2d60640d-5fb2-4305-9471-1fe66e6c2707,25dcd6adbd430ad,e9973f75fe7bce1,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-07-22T00:00:00,LIETUVA,17264.8,Euras,Bankiniu pavedimu,2024-09-27T12:18:08
+2df74915-54a0-4751-8f30-d9aa259e9959,a95971f1c141748,177ead1ab935a20,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-12-20T00:00:00,LATVIJA,21170.0,Euras,Nenurodyta,2023-02-08T09:31:27
+2e7d4ca8-dc0d-4ad3-aee3-026f24f5cec8,a18381fad745ec2,5bc78775579a64a,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2024-01-03T00:00:00,LIETUVA,682.0,Euras,Nenurodyta,2024-02-23T13:58:35
+2f44d03a-5617-4b39-9e1a-95f4b6901aae,ccc195ccb4a5db8,05823b694553091,Pirkimo-pardavimo sutartis,2021-06-25T00:00:00,LIETUVA,2300.0,Euras,Grynaisiais pinigais,2021-06-28T15:24:59
+2fae08e7-04ee-4874-a129-be2cd23ae417,aa223a75940b228,246bd2600100817,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2025-08-19T00:00:00,LATVIJA,21164.0,Euras,Bankiniu pavedimu,2025-08-19T12:58:08
+2fb2dd11-ac44-4820-8e41-448ee139855f,a1494fd0221387d,da1a793eb1e2ce5,ENTP priėmimo – perdavimo aktas,2024-02-26T00:00:00,LIETUVA,109.25,Euras,Grynaisiais pinigais,2024-02-27T09:10:39
+30bef107-335b-424a-b1b6-56d676977c09,4d4bcaeadc1ee10,e23490939febe08,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-03-21T00:00:00,PRANCŪZIJA,1400.0,Euras,Bankiniu pavedimu,2023-03-24T14:48:06
+31d505dd-68c5-4bff-beda-b5101e24196c,12882164f9ab47b,92ee92bf105068f,Pirkimo-pardavimo sutartis,2025-07-03T00:00:00,VOKIETIJA,3800.0,Euras,Grynaisiais pinigais,2025-08-28T15:01:37
+32d8e28a-64e1-421a-81ba-936addab1902,bda65a3136d9fc0,62c48b913429251,Dovanojimo sutartis,2025-07-30T00:00:00,LIETUVA,10000.0,Euras,Nenurodyta,2025-07-30T14:32:51
+331c52d1-cd90-4ca8-afab-23e6d53be993,a6b6ee63cb47d83,4224fcb37b54541,Juridinio asmens reorganizavimo dokumentas,2025-11-24T00:00:00,LIETUVA,1856.0,Euras,Bankiniu pavedimu,2025-12-03T10:17:22
+3326ce41-4982-4445-bc03-66d1478e96de,5d088bade30d028,ddaaaa1a5a7b706,Pirkimo-pardavimo sutartis,2025-10-14T00:00:00,LIETUVA,30300.0,Euras,Bankiniu pavedimu,2026-01-08T10:19:10
+35aa981f-9fe7-44b1-b3d8-c74870f37f93,1b238c2dcf48322,679c27af9b9b2df,Pirkimo-pardavimo sutartis,2024-05-13T00:00:00,LIETUVA,36240.0,Euras,Bankiniu pavedimu,2024-05-20T13:58:12
+3678e66f-d7f0-4cf2-a149-ca7a2714eee5,6d1b986c61c502e,dd758e5222bc615,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-06-30T00:00:00,LIETUVA,32670.0,Euras,Bankiniu pavedimu,2022-06-30T16:40:18
+36913b3c-f971-43a6-b7c5-34df55d1d388,1c82181b90c743b,2c85f6800c7025b,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2022-08-28T00:00:00,LIETUVA,7500.0,Euras,Grynaisiais pinigais,2022-08-31T21:14:50
+370ff002-233c-4b1a-aceb-0cd1fca36fff,ea4cbd35be9ebc9,0ca33c0924b4f2f,Pirkimo-pardavimo sutartis,2021-06-20T00:00:00,LIETUVA,4000.0,Euras,Grynaisiais pinigais,2021-06-26T09:04:35
+374bcf88-8a62-4a2d-9192-683de53858bd,b1e7159bf982baa,dd74e2e80d5e1b1,Dovanojimo sutartis,2024-05-27T00:00:00,LIETUVA,24500.0,Euras,Nenurodyta,2024-05-28T09:15:44
+3797332e-9270-43b4-aa27-f09ae1685f24,7996a2e41a73c49,326dcb04ac6c5ee,Pirkimo-pardavimo sutartis,2021-06-04T00:00:00,LATVIJA,700.0,Euras,Grynaisiais pinigais,2021-06-06T19:49:31
+379dd9c3-9485-43b2-b6a5-5d355d9c8d06,7ca7793842b12bc,4b44d8cb98d60e3,Pirkimo-pardavimo sutartis,2024-04-29T00:00:00,LIETUVA,3400.0,Euras,Bankiniu pavedimu,2024-05-03T12:16:07
+38882332-aff0-48d3-8b5f-7558dd7d649a,f9aaa3336a5be32,0970054165f1887,Pagaminimo deklaracija,2023-04-25T00:00:00,LIETUVA,81700.0,Euras,Bankiniu pavedimu,2023-04-25T16:15:47
+38b2a55a-d72e-42c8-a1a3-786d3af3ece7,b43bc9dc53d73bc,3aa5fa2ffb4160c,Pirkimo-pardavimo sutartis,2023-12-15T00:00:00,VOKIETIJA,15710.0,Euras,Bankiniu pavedimu,2023-12-15T13:24:11
+3952812b-b2ba-4e22-ad04-c9ba1d61b219,9a5a23bba2df4e8,b3f05f373ce7d5b,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2025-08-01T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2025-08-11T08:39:24
+3a33838d-f0e4-4e7e-9b3d-c45bc55de46a,8527a7f360449a6,cadac785eb1126a,Pirkimo-pardavimo sutartis,2025-05-15T00:00:00,ITALIJA,3800.0,Euras,Grynaisiais pinigais,2025-06-03T08:53:06
+3a523cc5-dac7-4016-8c69-ac20312d36eb,cd28f4955c8f9bc,1e6a3f872130611,Sąskaita (mokėjimą patvirtinantis dokumentas),2025-07-28T00:00:00,JUNGTINĖS AMERIKOS VALSTIJOS,3065.0,JAV doleris,Bankiniu pavedimu,2025-11-27T19:04:19
+3b6f7106-f5df-446b-ae2a-606e84250a31,491bdf929ef48df,79db8472a2d1a31,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2025-03-28T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2025-04-10T13:58:45
+3b7cd5b3-0cae-4299-b710-e095e097b390,2fae95883fcd6fa,c05e8fdd0e695e3,Lizingo sutarties pabaigos aktas (pažyma),2026-02-25T00:00:00,LIETUVA,14900.0,Euras,Bankiniu pavedimu,2026-02-25T11:06:50
+3bb8f3a9-59e7-4abd-b7ad-10b0f8e7b841,00f8edcb61ea558,8ac3b3296bcc4f2,Pirkimo-pardavimo sutartis,2022-02-09T00:00:00,LIETUVA,1800.0,Euras,Grynaisiais pinigais,2022-02-09T18:51:39
+3bd3ccb8-fc6f-41e4-a536-c49aa6b43dea,9ee763fb9f9d0af,b85874e2cbd1195,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-01-26T00:00:00,VOKIETIJA,4000.0,Euras,Bankiniu pavedimu,2024-01-30T10:58:05
+3f351db6-a004-41f6-ab04-ae6133c8bcd7,bfbd1395da95fa1,065cd428f548d7e,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-08-17T00:00:00,LIETUVA,12500.0,Euras,Bankiniu pavedimu,2022-08-19T11:15:43
+40123520-f610-4837-bdf7-39c45e231bb0,069f7467599bb07,d3507bde772ade9,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2026-10-15T00:00:00,LIETUVA,38000.0,Euras,Nenurodyta,2026-10-15T10:03:48
+40254770-f859-4d79-bd8f-eac71861cc5c,f1472a84abd4297,300e92eafa2ae36,Nuosavybės teisės liudijimas,2023-05-04T00:00:00,LIETUVA,2000.0,Euras,Nenurodyta,2023-05-11T14:41:41
+40290a9e-1d6b-43a8-b436-e1d8888310a7,be831162de56de8,c04a6766f33e299,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-01-12T00:00:00,LIETUVA,23595.0,Euras,Bankiniu pavedimu,2023-01-12T09:34:09
+403964fa-d21f-4a50-85fe-c4115c46ee9c,e5750207d693c73,e2b6a839926ef11,Pirkimo-pardavimo sutartis,2022-12-30T00:00:00,LIETUVA,350.0,Euras,Grynaisiais pinigais,2022-12-31T11:02:35
+40e15abc-2136-49c5-b530-ed760b45c86d,ec0d7eb9555fdfe,f5b795d910c5d41,Pirkimo-pardavimo sutartis,2023-06-01T00:00:00,VOKIETIJA,19826.39,Euras,Bankiniu pavedimu,2023-06-03T10:28:31
+414d5469-7c26-4373-90b4-be10d41fade6,dc5651ffc8d9b86,20ec9549bfb9ec1,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-01-18T00:00:00,LIETUVA,8470.0,Euras,Bankiniu pavedimu,2024-01-26T14:19:24
+41cbf769-479b-4281-80dd-c2cd11eb52e6,8170e01c013308f,76974bbac515c80,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-10-01T00:00:00,LIETUVA,37994.0,Euras,Bankiniu pavedimu,2024-10-01T11:46:11
+42347708-3df5-43ec-877e-f184f21c15a9,ba1f2bef0e8492a,3fecd30f381cb04,Pirkimo-pardavimo sutartis,2024-11-14T00:00:00,LIETUVA,650.0,Euras,Grynaisiais pinigais,2024-11-18T18:17:32
+42c28ef1-d86a-4958-bfa2-5c52fde32ec5,ff5370e10977159,14f34b9c2b57ec4,Pirkimo-pardavimo sutartis,2022-04-13T00:00:00,LIETUVA,100.0,Euras,Nenurodyta,2022-04-13T15:47:10
+42e30017-e9e6-4dda-9862-a773f2525d7f,97a8c0926a70e4d,6e64521f4145c34,Pirkimo-pardavimo sutartis,2022-02-08T00:00:00,LIETUVA,37018.0,Euras,Bankiniu pavedimu,2022-02-10T14:30:15
+46356021-6982-46a1-a975-4758ce82984d,4455463484dc30f,2d500bb56be99ab,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2025-06-18T00:00:00,LIETUVA,19000.0,Euras,Nenurodyta,2025-08-02T12:09:03
+4701a254-748f-4ab3-9f7a-bbf4d705c1e2,b86e1aec84f4eeb,d716e114e853a36,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2023-04-12T00:00:00,LIETUVA,3100.0,Euras,Nenurodyta,2023-04-12T11:13:21
+47ac3487-2755-4ed7-879e-882554f55043,13c5c8368921a6a,9b06210a3712e20,Nuosavybės teisės liudijimas,2025-08-25T00:00:00,VOKIETIJA,11200.0,Euras,Grynaisiais pinigais,2025-08-25T09:32:38
+47aea387-ed15-495d-bab4-efad4914dce9,a29290b7b563258,74d68eb051c3d71,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2022-07-07T00:00:00,LIETUVA,9000.0,Euras,Nenurodyta,2022-10-22T14:50:38
+497c1993-419f-4d3c-baef-75f1f24740d7,70eededbae7470c,b8da55c11ee01ac,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2025-11-05T00:00:00,LIETUVA,30250.0,Euras,Nenurodyta,2025-11-05T12:01:32
+49a2de6f-0634-471f-96c1-9594967e85f8,abf5751d09af3a3,555ef78041aa6c7,Pirkimo-pardavimo sutartis,2025-06-16T00:00:00,LIETUVA,18065.0,Euras,Bankiniu pavedimu,2025-06-20T11:49:24
+4a2fddd8-ce9d-4ee7-b9b5-3a97f3ecd41d,e94712b9c8312cc,e471f36a32f7850,Paramos sutartis,2023-09-26T00:00:00,LIETUVA,3258.0,Euras,Nenurodyta,2023-09-26T10:04:50
+4a7c68ae-22fd-4fd8-b207-8668748add68,056291b204a2a5c,92d4111d73194a9,Pirkimo-pardavimo sutartis,2022-05-18T00:00:00,LIETUVA,1500.0,Euras,Grynaisiais pinigais,2022-05-19T13:19:54
+4b7b1c0e-bc06-479d-a964-31620a2f4d1a,e21ed3fdb554c6b,a5bce0f8eeb4c52,Pirkimo-pardavimo sutartis,2022-06-19T00:00:00,LIETUVA,1200.0,Euras,Grynaisiais pinigais,2022-07-04T10:39:50
+4c7461d4-1e45-49c8-888e-e1228183cf20,445d3581c38d12c,b8718ffc9bfad68,Pirkimo-pardavimo sutartis,2023-11-27T00:00:00,ITALIJA,1400.0,Euras,Bankiniu pavedimu,2023-12-11T10:09:06
+4ccaa1b0-a10d-4242-83a5-bd69eb50df43,ba213a5d4a35f26,16f5e696a38948d,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-07-22T00:00:00,LIETUVA,22000.0,Euras,Bankiniu pavedimu,2022-07-23T08:50:45
+4cf792ad-43bd-4e24-bbb8-d242fe8b8f9f,67693eb80268fa6,e533d3f4a6f7ec0,ENTP priėmimo – perdavimo aktas,2021-05-27T00:00:00,LIETUVA,123.12,Euras,Grynaisiais pinigais,2021-06-02T14:04:40
+4cfcb24c-8c9a-4d9e-b867-f6bfe4fa5071,d57d0d2dc03c98f,e7a8740502c0b5d,Pirkimo-pardavimo sutartis,2023-03-24T00:00:00,LIETUVA,1050.0,Euras,Grynaisiais pinigais,2023-03-24T14:53:29
+4d4e8b8f-4214-48af-9b60-b1078234eced,6cac440016c9310,354272dc6376b16,Sąskaita (mokėjimą patvirtinantis dokumentas),2025-07-16T00:00:00,LIETUVA,3993.0,Euras,Bankiniu pavedimu,2025-07-16T16:56:09
+4eaa647e-8568-476f-8a56-d8c7a4a1f8f9,a6e41cb56783939,89d24e11315e241,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-02-27T00:00:00,VOKIETIJA,3100.0,Euras,Bankiniu pavedimu,2024-03-20T11:06:58
+4ee50eaa-d3f2-4eb0-82c6-1dd72d928c24,dffce93a9d74fe5,c99e13f4a39171c,Pirkimo-pardavimo sutartis,2023-04-21T00:00:00,LIETUVA,400.0,Euras,Grynaisiais pinigais,2023-05-13T12:51:35
+51465a7b-9607-4c04-a29c-da78bc9bf848,b58f6d41d0f18a5,d40a8dc408a3043,Sandorio anuliavimo dokumentas,2022-05-18T00:00:00,LIETUVA,11187.66,Euras,Bankiniu pavedimu,2022-05-19T09:44:12
+51778bb5-849c-4899-9c07-3ae88af8c972,da482fd5b58fcce,7fcc010e5359392,Pirkimo-pardavimo sutartis,2025-01-07T00:00:00,LIETUVA,25509.0,Euras,Bankiniu pavedimu,2025-03-26T09:05:46
+5221c1fd-6e41-4c32-bc18-156247f9f485,2f42ef71b0f810c,791912e6ac1d29c,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-04-12T00:00:00,LIETUVA,1130.0,Euras,Nenurodyta,2023-04-20T11:07:44
+522c20a7-867b-49d4-b60e-f1fcd5efb11c,01c0e9cf422b6e0,ada4db49b1975fd,Pirkimo-pardavimo sutartis,2022-02-11T00:00:00,LIETUVA,500.0,Euras,Grynaisiais pinigais,2022-04-11T16:00:17
+537575d2-f086-45ce-b822-cd7de0dc5137,da925d83932d998,028832a20f6a164,Viešame prekių aukcione parduoto turto perdavimo aktas,2021-06-03T00:00:00,LIETUVA,978.0,Euras,Bankiniu pavedimu,2022-01-27T10:23:47
+53f8a718-a3ba-4204-a255-89ac161cc9c1,21213ef5609a299,5560d5239c5250c,Pirkimo-pardavimo sutartis,2024-06-04T00:00:00,LIETUVA,1500.0,Euras,Grynaisiais pinigais,2024-06-05T15:31:40
+54c7642c-7c66-4e3b-aaf7-02c20187275f,52caf7e7dc908bb,bc690cf076e9cc6,Pirkimo-pardavimo sutartis,2024-07-01T00:00:00,LIETUVA,7000.0,Euras,Bankiniu pavedimu,2024-08-27T12:01:40
+54f033f8-6e9b-4362-8cc0-1cb6786acf0c,e66ec3d66fd1b18,77351867f2f5b6c,Pirkimo-pardavimo sutartis,2025-08-18T00:00:00,LIETUVA,34.0,Euras,Grynaisiais pinigais,2025-08-18T16:20:19
+55c9f378-7292-46f1-8cac-4085d119725d,6c018caae682fef,c6cdee9b9efea40,Sąskaita (mokėjimą patvirtinantis dokumentas),2026-04-07T00:00:00,LIETUVA,14100.0,Euras,Bankiniu pavedimu,2026-04-08T12:50:21
+565a6fe8-17d4-4695-8cc6-f408889eefb4,81016323361f994,d5902f4a6010d5e,Paramos sutartis,2023-04-07T00:00:00,UKRAINA,0.0,Euras,Nenurodyta,2024-03-27T14:47:32
+583c10d0-4c2e-4c0a-b339-cc9f6ea73660,5496c220a58b3bf,351e587ee64e0e2,Pirkimo-pardavimo sutartis,2021-11-01T00:00:00,LIETUVA,500.0,Euras,Grynaisiais pinigais,2021-11-02T15:50:17
+5873caf4-d033-4ba2-bc72-51ca56d37a81,ffc3f187c7d9fce,c72933f77c63f67,Paramos sutartis,2025-02-23T00:00:00,LIETUVA,4709.0,Euras,Nenurodyta,2025-11-20T13:03:37
+58b31828-c9d5-4dc6-b794-c979998785eb,8d6bb5786178b6a,1a409c1d5ee4c2a,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2021-09-08T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2021-12-10T12:53:12
+5ca17f03-d5fb-4d64-bd98-45b3dab18f85,f1e745efb3e14e5,0f6982f352e6c25,Pirkimo-pardavimo sutartis,2025-11-08T00:00:00,LIETUVA,8700.0,Euras,Bankiniu pavedimu,2025-11-10T17:21:40
+5ca83b0c-7f85-4be3-8ef3-55ba831abcf1,36db375699cf3d9,212fec362e4d1d2,Pirkimo-pardavimo sutartis,2025-04-25T00:00:00,LIETUVA,1900.0,Euras,Grynaisiais pinigais,2025-04-25T16:22:47
+5cbc8d74-4790-4065-b6a5-29d330ec944e,49023839c89a4cc,af6b0439febcdfd,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2022-12-22T00:00:00,LIETUVA,963.0,Euras,Nenurodyta,2023-04-18T11:06:01
+5cc42dfe-94b8-4b87-be51-c8718033ebdc,427c115d97a30ee,e3bc146abe89d5b,Viešame prekių aukcione parduoto turto perdavimo aktas,2022-10-07T00:00:00,LIETUVA,1100.0,Euras,Bankiniu pavedimu,2022-10-08T12:27:09
+5ceb8bd5-1cdd-4b37-afad-51eab85b36d4,eaf150f47a7a462,a6deb64cc957b0c,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-02-09T00:00:00,PRANCŪZIJA,3000.0,Euras,Bankiniu pavedimu,2024-02-27T09:40:52
+5ece4b3f-8018-478d-8596-1849c074b042,d4b936ebd5ceff0,128558e627d7e28,Pirkimo-pardavimo sutartis,2023-07-28T00:00:00,LIETUVA,2000.0,Euras,Grynaisiais pinigais,2023-07-28T08:21:44
+5f33364c-03e3-4b63-91b2-24d722f94da2,0b3099904909c26,7bc20382775cae9,Sąskaita (mokėjimą patvirtinantis dokumentas),2021-11-10T00:00:00,LIETUVA,21180.0,Euras,Bankiniu pavedimu,2021-12-06T16:56:32
+5f7c44b7-2b71-4356-baa8-70002f7bbe8e,414ab43a3b88a9e,c0a287639d1df39,Paveldėjimo teisės liudijimas,2024-03-01T00:00:00,LIETUVA,1000.0,Euras,Nenurodyta,2024-03-01T14:02:31
+60c2cc2e-73bc-4597-aac7-65bcabbdad6b,489cfee8ebf5be5,2007f842bcb31d6,Pirkimo-pardavimo sutartis,2024-09-13T00:00:00,LIETUVA,1000.0,Euras,Grynaisiais pinigais,2024-09-13T09:43:24
+611eb437-2a72-4416-af28-1fec7503c833,2bdc90c08098bcc,c5ebff628936dbb,Pirkimo-pardavimo sutartis,2021-08-26T00:00:00,VOKIETIJA,2100.0,Euras,Nenurodyta,2021-08-31T14:35:46
+61ffe137-55a4-4dd1-b8d9-272d92cac19c,77ed09b56951dda,b3ac164a83734e0,Pirkimo-pardavimo sutartis,2021-05-03T00:00:00,LIETUVA,1000.0,Euras,Grynaisiais pinigais,2021-05-05T18:41:11
+6223f1d1-683c-4aa9-b7a9-ce0974ad2acd,21fad9bc7cdf63d,9e8543072c26239,Juridinio asmens reorganizavimo dokumentas,2021-10-31T00:00:00,LIETUVA,58787.85,Euras,Nenurodyta,2021-12-06T16:56:29
+62269701-4098-4014-b989-c41ad8a07b98,15cd177ca6caee8,994c379fc506c97,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2024-04-16T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2024-07-02T14:59:30
+628570e8-6488-4f06-b491-8e12c0109e5a,26f404794a63187,8e772baa329b0d6,Laimėjimą patvirtinantis dokumentas,2026-10-08T00:00:00,BELGIJA,7236.0,Euras,Bankiniu pavedimu,2026-10-19T10:07:26
+64222bf2-da9c-46e6-8081-9e074fe69fed,429801ccc2eaef4,6d05172b527bc9d,Sąskaita (mokėjimą patvirtinantis dokumentas),2021-10-29T00:00:00,LIETUVA,31927.56,Euras,Nenurodyta,2021-11-03T10:37:53
+6434370e-8e77-4b12-bb50-0f483d24e3fb,45cf9531c53837a,6c50c8491ed2edf,Lizingo sutarties pabaigos aktas (pažyma),2021-06-23T00:00:00,LIETUVA,10106.9,Euras,Bankiniu pavedimu,2021-07-09T11:25:44
+64422af6-b586-48af-a2ae-815310b3f368,2df2f02d7fdb5f9,b0c6b52e42480dd,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2024-03-13T00:00:00,ESTIJA,47856.0,Euras,Bankiniu pavedimu,2024-03-13T15:22:46
+6516a067-fd0f-4bb0-9496-2decf4ea5fd9,d4e04fd4fd0ca78,f2165e803dd69e9,Nuosavybės teisės liudijimas,2024-08-12T00:00:00,LIETUVA,4000.0,Euras,Nenurodyta,2024-08-31T07:50:00
+65dabecf-cc8c-4122-8290-aa479a51a00a,72fe7870c8a0a95,4aba4d309e90f36,Paveldėjimo teisės liudijimas,2021-12-21T00:00:00,LIETUVA,500.0,Euras,Nenurodyta,2022-01-21T10:56:55
+66fefdbc-1fad-4872-93d2-0ce276551c0b,61a0296122f2e82,8d598dc6f342be3,Pirkimo-pardavimo sutartis,2024-03-01T00:00:00,LIETUVA,4200.0,Euras,Grynaisiais pinigais,2024-03-02T08:03:47
+6801290f-4e0e-40b3-bcc2-a2f9f4b84579,52370a708a61221,9b71bc19ceb7f2a,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-07-22T00:00:00,LIETUVA,4500.0,Euras,Grynaisiais pinigais,2023-05-17T13:27:15
+68fa273c-ecb0-42c2-afc7-e3ddf128592e,0148f96cd9a6e88,b6f27fd213d96ee,Lizingo sutarties pabaigos aktas (pažyma),2023-10-30T00:00:00,LIETUVA,11000.0,Euras,Nenurodyta,2023-10-31T14:12:00
+69142589-7d9a-4168-8922-88729c7afe2a,572d99c775ebab0,cbdfb30d32bb812,Mainų sutartis,2022-02-04T00:00:00,LIETUVA,1000.0,Euras,Grynaisiais pinigais,2022-02-04T20:00:10
+69cc3fd2-21ec-4edb-9403-cc09504c1540,b1bfd1b71bd629c,07df6536536aaa7,Pirkimo-pardavimo sutartis,2024-10-30T00:00:00,LIETUVA,550.0,Euras,Grynaisiais pinigais,2024-10-31T11:24:53
+6a849e28-e1f8-4e34-8804-e303f29869eb,fd5c8704160ddc0,99d8c40c3098f34,Dovanojimo sutartis,2025-02-24T00:00:00,LIETUVA,250.0,Euras,Nenurodyta,2025-03-06T15:08:40
+6aab8fc7-af79-49ca-b85a-06afa0595693,e3fe84ba5e05abc,64968ecaf9ef334,Viešame prekių aukcione parduoto turto perdavimo aktas,2022-07-02T00:00:00,LIETUVA,2420.0,Euras,Bankiniu pavedimu,2022-07-19T13:25:59
+6ac716ae-6478-4a85-a5b6-2a179afdcfe5,171e854ccdbc865,db9a86257fe0c58,Pirkimo-pardavimo sutartis,2022-12-19T00:00:00,LIETUVA,15000.0,Euras,Bankiniu pavedimu,2022-12-20T18:40:08
+6b4dad79-c1e0-420d-ba47-79ffb1ad4a1f,f4e469c9f7827dc,6f6ec193d338987,Pirkimo-pardavimo sutartis,2022-05-28T00:00:00,LIETUVA,1000.0,Euras,Grynaisiais pinigais,2022-05-28T08:50:36
+6b878c41-454b-45b3-a052-e0a7c4e14c14,4f2128ce688528e,4b09776ce6f79d5,Paramos sutartis,2022-09-12T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2022-09-14T09:04:24
+6bc4c12a-6de2-4869-a97d-808b9e7d49bc,29772541762fd5b,776c6212e2a027c,Sąskaita (mokėjimą patvirtinantis dokumentas),2025-07-17T00:00:00,LIETUVA,10700.0,Euras,Bankiniu pavedimu,2025-07-17T12:28:42
+6bd1f3a8-7643-4ac1-90b2-c7ed51d47d2b,a94395cef429779,cb43240b7ddb19b,Pirkimo-pardavimo sutartis,2023-03-10T00:00:00,VOKIETIJA,12500.0,Euras,Bankiniu pavedimu,2023-03-31T14:55:38
+6c5d93dc-fd15-4803-a78f-49b66cfec85f,581eb8b0400e57d,68afad617d54936,Pirkimo-pardavimo sutartis,2023-07-24T00:00:00,LIETUVA,100.0,Euras,Grynaisiais pinigais,2023-07-27T13:02:45
+6ca679b7-9f2e-44bc-ac31-b6d656052771,0f992fb5f266732,bc2bb700839659d,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2026-01-05T00:00:00,LIETUVA,4900.0,Euras,Nenurodyta,2026-01-09T11:57:29
+6db9b1c9-9777-477f-905a-b06a2f71b9a4,fb004676a869fca,01ecba4a03c663e,Pagaminimo deklaracija,2022-05-11T00:00:00,LIETUVA,200.0,Euras,Nenurodyta,2022-05-11T14:07:31
+6dd25cd3-06cc-41cf-a8ea-8ea681d942fd,deee06d21d5f864,73c9923df8c9e65,Sandorio anuliavimo dokumentas,2021-11-30T00:00:00,LIETUVA,10000.0,Euras,Grynaisiais pinigais,2022-01-20T15:24:56
+6e5f4c4e-b0eb-4bc9-b385-23580b266731,626f064a5a1f4d6,e27df59877dc414,Pirkimo-pardavimo sutartis,2025-07-30T00:00:00,LIETUVA,4000.0,Euras,Bankiniu pavedimu,2025-07-30T23:05:07
+6e65b220-b364-43b5-887a-cb7eecc9f1ae,107e421bb2dcb71,da849b7b2e7010b,Pirkimo-pardavimo sutartis,2025-08-20T00:00:00,LIETUVA,600.0,Euras,Bankiniu pavedimu,2025-08-23T11:18:38
+709b0346-378c-4f61-8b34-913110975e35,bf867d211675f06,a7965b0c0bb69ec,Viešame prekių aukcione parduoto turto perdavimo aktas,2026-02-02T00:00:00,LIETUVA,1000.0,Euras,Bankiniu pavedimu,2026-02-03T12:56:11
+70e0b79b-4fec-4adb-a1ab-e61a9fece66d,a216e8022bd3918,d958b0e69c3b1d1,Pirkimo-pardavimo sutartis,2023-04-11T00:00:00,LIETUVA,500.0,Euras,Grynaisiais pinigais,2023-04-11T22:15:59
+70e7e2d2-a563-4b10-bdb6-1bf6eda47273,e289b3070356125,bb0560fab710894,Pagaminimo deklaracija,2025-03-19T00:00:00,BELGIJA,2700.0,Euras,Grynaisiais pinigais,2025-09-04T17:21:35
+7140e38f-c5e2-4575-8f73-e87b7b2b7f15,a16facef9d4b6bd,4f1dd05f3f38e6d,Dovanojimo sutartis,2023-12-05T00:00:00,LIETUVA,6000.0,Euras,Nenurodyta,2023-12-05T15:58:01
+71620f51-9d23-4e10-89ab-e447f3a96a99,d7bc49b717ab8a6,85047eb46c2e064,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-01-20T00:00:00,LIETUVA,25890.0,Euras,Bankiniu pavedimu,2023-01-23T12:08:04
+723d63bb-d265-4257-ab8f-93dd16a6bdd4,a360656a68ef526,07a226e78b6e92d,Pirkimo-pardavimo sutartis,2025-06-02T00:00:00,LIETUVA,18386.0,Euras,Bankiniu pavedimu,2025-07-09T08:41:27
+7261b0ab-cd27-4e0c-b5db-c347cde2d263,0efe0ee83855790,bbb045c1e3787fd,Paveldėjimo teisės liudijimas,2023-05-03T00:00:00,LIETUVA,5000.0,Euras,Nenurodyta,2023-08-17T13:19:59
+72639bc4-f622-435c-9e7e-31bcc8146a6b,333f418e738dd73,02e955618d50dcd,Sąskaita (mokėjimą patvirtinantis dokumentas),2025-09-04T00:00:00,LIETUVA,5500.0,Euras,Bankiniu pavedimu,2025-10-04T16:04:21
+726d2500-5178-4b74-8df7-b3609e52837e,b2a12bd9e9d6709,ed98aee8712d49c,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2025-08-19T00:00:00,LENKIJA,93450.0,Euras,Nenurodyta,2025-09-23T13:03:56
+73cd7e08-0c9d-4dd7-a478-c7eddf31b4f9,7edede5d9c38b14,88712c375fb2dd3,Paramos sutartis,2026-01-11T00:00:00,UKRAINA,3500.0,Euras,Nenurodyta,2026-01-17T07:53:10
+73fa4077-e0ad-4a9a-af53-0b1e31e5373e,82e7bee7bfd5358,986892e0a3ee9c9,Viešame prekių aukcione parduoto turto perdavimo aktas,2024-10-19T00:00:00,VOKIETIJA,838.0,Euras,Bankiniu pavedimu,2024-11-04T09:55:41
+740ce6f7-7a75-4b63-8764-df762f96d711,d3b58fe1b3b8a13,13a45a99437782f,Pirkimo-pardavimo sutartis,2024-08-12T00:00:00,LIETUVA,400.0,Euras,Grynaisiais pinigais,2024-08-12T22:40:21
+74440025-4af2-4f78-9716-76ab59d7f435,42bde278a7721c2,2601a6b0587717f,Pirkimo-pardavimo sutartis,2025-09-16T00:00:00,LIETUVA,1000.0,Euras,Grynaisiais pinigais,2025-09-25T23:44:08
+74545786-d8d5-4186-8442-0c5cc38901ea,852bceea74fbb97,73c708307a29acb,Pirkimo-pardavimo sutartis,2025-04-12T00:00:00,LIETUVA,1850.0,Euras,Grynaisiais pinigais,2025-04-12T15:52:16
+746da6a7-e0d1-4164-8ead-e474ed760819,718223afe6fed7a,eb6a8edf4141b47,Pirkimo-pardavimo sutartis,2024-06-03T00:00:00,LIETUVA,670.0,Euras,Grynaisiais pinigais,2024-06-03T18:36:39
+75abfdac-1c99-49ce-a5e0-ae17cc0766d8,5712ca6b2e337d1,4f3a3b8ff2a6460,Sandorio anuliavimo dokumentas,2024-05-09T00:00:00,LIETUVA,22000.0,Euras,Bankiniu pavedimu,2024-05-10T14:24:13
+75ede4d4-27e6-4748-b60a-00f39a51ebb2,937a6a85f81e762,19e2f9e127029b6,ENTP priėmimo – perdavimo aktas,2021-10-26T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2021-10-27T09:19:20
+75f4daa8-c2b8-481c-9bf9-3d98c079de08,a449d1bf70edd02,f7b280f5e202d5b,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-12-06T00:00:00,VOKIETIJA,397.23,Euras,Bankiniu pavedimu,2023-01-21T12:30:52
+76267fba-d3c4-4370-8fe4-4e5879a68cb5,de728d329a3e76a,db4fe5418d51aa4,Pirkimo-pardavimo sutartis,2023-11-08T00:00:00,LIETUVA,200.0,Euras,Grynaisiais pinigais,2023-11-08T15:59:33
+76580e0f-5ac0-4717-9308-33a925693860,1c017cad817beb4,48092e10b205beb,Pirkimo-pardavimo sutartis,2025-08-15T00:00:00,LIETUVA,3100.0,Euras,Grynaisiais pinigais,2025-08-15T19:45:08
+76922bbe-24f8-4a37-b205-1c325495df4e,9e9701ae4475bde,373727b9ffa93eb,ENTP priėmimo – perdavimo aktas,2023-11-14T00:00:00,LIETUVA,50.0,Euras,Nenurodyta,2023-11-14T13:04:13
+7713e02a-d538-463e-84f3-d5bd8f109842,1846b0d21066228,e2c715c5b0d6a65,Pirkimo-pardavimo sutartis,2025-11-11T00:00:00,LIETUVA,30998.0,Euras,Grynaisiais pinigais,2025-11-12T08:47:59
+773e3b3e-ba60-4665-8115-0e2fc89b29e3,fad14674f558b28,850c65775c61ae3,Pirkimo-pardavimo sutartis,2023-09-21T00:00:00,LIETUVA,9000.0,Euras,Bankiniu pavedimu,2023-09-27T08:24:17
+77aca822-094d-432f-8d34-9a2a34f5d59b,29146f5df374cf3,c203cf87f2b0130,Laimėjimą patvirtinantis dokumentas,2025-05-15T00:00:00,LIETUVA,300.0,Euras,Grynaisiais pinigais,2025-05-27T20:49:08
+79748752-9c95-433e-a683-baf95b2bacfd,03aa4d0ca8218e5,6452f7d8ca598a9,Pirkimo-pardavimo sutartis,2023-10-20T00:00:00,LIETUVA,18490.0,Euras,Nenurodyta,2023-10-25T10:30:02
+7981ba3c-2374-457f-9a77-bcfb58a1628d,e3c6cedfc975ceb,608aa48f586cf17,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2024-07-02T00:00:00,BELGIJA,3250.0,Euras,Grynaisiais pinigais,2024-07-22T11:58:56
+79c8633f-f65b-4cba-9d05-278febcbff57,ec8abd91d120497,f143a5cd93c40c2,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2025-11-04T00:00:00,PRANCŪZIJA,1500.0,Euras,Bankiniu pavedimu,2025-11-10T17:17:51
+79cad337-becc-4688-9c9e-bb92b1c6b435,42c2de9bfd5bdcc,862e3803f1b5cf7,Pirkimo-pardavimo sutartis,2021-09-05T00:00:00,LIETUVA,1000.0,Euras,Bankiniu pavedimu,2021-09-05T23:33:06
+79f8d772-30b4-4b25-a5f4-1c2b20488538,3f2a75ba6c64605,f51b2fd20982ef2,ENTP priėmimo – perdavimo aktas,2023-09-15T00:00:00,LIETUVA,0.0,Euras,Grynaisiais pinigais,2023-10-09T16:38:24
+7a3a5db9-4748-4919-ab84-06d1390a2e31,540774caa1889ef,857b8bf29703745,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-10-15T00:00:00,LIETUVA,3700.0,Euras,Grynaisiais pinigais,2022-10-15T12:04:53
+7adcb5b7-3757-4bdb-b403-92bde985367b,02d0fbc0f0ebade,be5ab5cb88aaf55,Pirkimo-pardavimo sutartis,2024-10-08T00:00:00,VOKIETIJA,80712.25,Euras,Bankiniu pavedimu,2024-10-18T10:04:47
+7c1796ff-7f9c-4577-a9ec-0a0b050c97fb,1fc3e6dda11272a,8bf05993e299030,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2025-08-13T00:00:00,LIETUVA,770.0,Euras,Nenurodyta,2025-09-18T11:56:30
+7d39407d-ff57-4eac-96cb-3388ba6377c5,1bbbfa7e8017661,a278af4cb20a785,Laimėjimą patvirtinantis dokumentas,2024-08-13T00:00:00,SUOMIJA,4876.0,Euras,Bankiniu pavedimu,2024-09-06T11:22:59
+7dc39270-6d0d-458d-8993-15f3705b2924,42763a7f71873d3,c68c1d4eb88cba8,Pirkimo-pardavimo sutartis,2025-09-28T00:00:00,LIETUVA,500.0,Euras,Grynaisiais pinigais,2025-10-12T15:16:42
+7de5b60f-cf00-4e0c-91b8-7aaa30bd91c5,0505adcd2dee5de,cc50734845fc918,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2025-07-08T00:00:00,ESTIJA,-32226.0,Euras,Bankiniu pavedimu,2025-07-08T17:37:52
+7e1d9ac9-7c8c-4557-84d2-36e38461ebb3,b977be70d3a8e2d,2baf39f72aa9710,Pirkimo-pardavimo sutartis,2022-12-15T00:00:00,LIETUVA,1000.0,Euras,Bankiniu pavedimu,2022-12-17T10:37:19
+7e4de3e2-9c66-43fe-a152-0ec2176ab196,731a4fa1087c597,7d4db6976a2be3d,Pagaminimo deklaracija,2023-05-11T00:00:00,LIETUVA,58763.35,Euras,Bankiniu pavedimu,2023-05-11T15:58:16
+7eb73e4f-f5c7-457a-ae86-37bbdd585dc5,f5a60b9751d9f37,f90cd6fcca6929b,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2021-09-18T00:00:00,PRANCŪZIJA,2950.0,Euras,Grynaisiais pinigais,2021-09-22T05:57:14
+7f9ad99d-09e9-4b95-8e89-5639d6e8b726,8bce45d9692ea1c,eb9b01440de804e,Lizingo sutarties pabaigos aktas (pažyma),2025-08-29T00:00:00,LIETUVA,27360.0,Euras,Bankiniu pavedimu,2025-08-30T10:27:51
+7fcc1904-9888-4ad6-a5cd-f4bd17370574,2082c69a15ceb9b,832df91901aa8dd,Pirkimo-pardavimo sutartis,2023-08-22T00:00:00,LIETUVA,700.0,Euras,Grynaisiais pinigais,2023-08-22T22:05:36
+80e60fbf-c447-424d-9967-cf051cb2a6c6,053a6ce00922c2b,674cb5cc5b46a85,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-07-08T00:00:00,LIETUVA,4500.0,Euras,Grynaisiais pinigais,2023-07-12T11:30:03
+812a4913-c35f-4fa5-8a6e-4ad2b81a6ca1,3a9b0e18608f587,56d8064a7d2edea,Pagaminimo deklaracija,2022-02-10T00:00:00,LIETUVA,3200.0,Euras,Grynaisiais pinigais,2022-02-10T11:52:49
+812e2d9f-9825-4492-887c-4bbcf44ffddb,0acf6cad011cfad,3f8af1db0b497ee,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2025-11-24T00:00:00,ESTIJA,81330.9,Euras,Bankiniu pavedimu,2025-11-24T11:02:49
+81504441-7527-4371-b47d-7e18b093d04a,f3d4f7b30e5b145,eb0d7f33272330e,Paveldėjimo teisės liudijimas,2025-10-14T00:00:00,LIETUVA,200.0,Euras,Nenurodyta,2025-10-15T10:35:28
+82e73b43-132e-4bb5-8be9-8744f6928b91,cc94ca4a4a0b3d4,b761345bc8a59dc,Sandorio anuliavimo dokumentas,2024-10-23T00:00:00,LIETUVA,4000.0,Euras,Bankiniu pavedimu,2024-10-23T18:44:12
+83066b3c-41d8-4906-a232-407520a239eb,8f1f5288837c5f9,4a8db9a445ec0d0,Pirkimo-pardavimo sutartis,2021-12-31T00:00:00,LIETUVA,10800.0,Euras,Grynaisiais pinigais,2022-01-04T14:14:58
+8306f724-e676-435f-9532-cdb862643848,773a8f4b6ae4a66,da7b5c066bacb59,Pirkimo-pardavimo sutartis,2025-09-14T00:00:00,LIETUVA,800.0,Euras,Grynaisiais pinigais,2025-09-14T20:30:45
+8377d0f3-4e41-4b72-a38f-c4de9357f968,faa3262eb7effaf,a345d6fa3e6b919,Pirkimo-pardavimo sutartis,2023-11-09T00:00:00,PRANCŪZIJA,7500.0,Euras,Bankiniu pavedimu,2024-02-02T12:47:09
+83bd5547-8369-4877-a3a4-c0d02f0166ba,d0602f86f2ef057,f2d1b6cf65c35f2,Lizingo sutarties pabaigos aktas (pažyma),2023-09-05T00:00:00,LIETUVA,25579.4,Euras,Bankiniu pavedimu,2023-09-29T14:05:09
+8465b4e2-e9ea-4540-ab7a-9edbb6bf1b53,31c98df059086f5,666e70b04d7f1d6,Lizingo sutarties pabaigos aktas (pažyma),2022-12-02T00:00:00,LIETUVA,77342.17,Euras,Nenurodyta,2022-12-02T16:12:53
+85431f7a-4eb6-492c-b45b-1644c2923b3f,8cf540af9d629eb,19bd2e807fa28cb,Pirkimo-pardavimo sutartis,2025-09-24T00:00:00,LIETUVA,600.0,Euras,Grynaisiais pinigais,2025-09-24T16:01:12
+85f893c2-ca5a-4887-940b-1e022f7bc3f1,798504261c75ef2,cd47446c97eb153,Laimėjimą patvirtinantis dokumentas,2024-09-26T00:00:00,LIETUVA,100.0,Euras,Grynaisiais pinigais,2024-09-27T18:00:24
+86647e40-fb8c-47a2-8b73-36008598449c,9e3061dd3bc42cd,da20476b0e5425a,Pirkimo-pardavimo sutartis,2024-11-07T00:00:00,LIETUVA,9600.0,Euras,Grynaisiais pinigais,2024-11-07T09:45:42
+867c3df5-c3e0-4147-b2bf-8a2418432326,967cd187b692b70,f60b9e6c4e3309a,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-01-21T00:00:00,LIETUVA,12400.0,Euras,Bankiniu pavedimu,2022-01-21T06:14:35
+86d22cc7-56f1-4fbe-a5e8-a2d74ef77cf0,b2bb9f62ce5d68d,6cda9b23c6640ad,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2025-06-05T00:00:00,ESTIJA,35311.0,Euras,Bankiniu pavedimu,2025-06-05T15:38:17
+86ed2496-d9c8-44f7-b20d-420c34988ac7,ac8e398e92a2bd0,0e54f25c59b8821,Paramos sutartis,2026-05-08T00:00:00,LIETUVA,1964.19,Euras,Nenurodyta,2026-05-19T13:26:06
+86f9884a-b464-4b52-b07c-9727570cb118,a64a67dec6ea2f9,202435c59b6eb98,Paveldėjimo teisės liudijimas,2022-10-18T00:00:00,LIETUVA,5000.0,Euras,Nenurodyta,2022-11-05T10:29:17
+8789cdfe-534b-4dda-8981-82ea82202d82,0f13223b4fdb6b7,e7c7cc26b25e8da,Lizingo sutarties pabaigos aktas (pažyma),2024-03-06T00:00:00,LIETUVA,24986.5,Euras,Bankiniu pavedimu,2024-03-06T12:25:45
+88ff4513-1fe6-4872-a61e-0c88b3308c97,9d71bfabcd9a0f9,b114ea770bbbe39,Dovanojimo sutartis,2022-09-02T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2022-09-06T18:02:43
+89393a6d-75bd-4300-92d7-af88142e221d,8bf7a972767c6e1,ed560ab07c72b59,Pirkimo-pardavimo sutartis,2024-11-13T00:00:00,LIETUVA,700.0,Euras,Grynaisiais pinigais,2025-04-03T13:01:18
+8967b432-2933-415c-88a2-0599d2367f20,75a5514dd8955ab,ffe76f5a344a5dd,Paramos sutartis,2022-07-30T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2023-05-15T18:59:15
+898a464c-4668-48bf-8e71-77a4f8c1fd07,e383c880cf70110,87fe3e11fbda107,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2026-03-04T00:00:00,ESTIJA,88995.0,Euras,Bankiniu pavedimu,2026-03-04T16:32:52
+8a10f803-eb59-4433-bfce-4e378e9a82ae,62bbd01cb92691b,362fe0f8fea4afd,Paveldėjimo teisės liudijimas,2022-12-21T00:00:00,LIETUVA,200.0,Euras,Nenurodyta,2024-10-05T10:43:05
+8a3d5f4f-aaba-42b3-92e8-0697e6be463d,a3a69daecd35945,e7de9a05b1ebfe6,Pirkimo-pardavimo sutartis,2021-12-11T00:00:00,LIETUVA,4000.0,Euras,Grynaisiais pinigais,2021-12-11T10:11:57
+8a98b420-1398-45fe-9fdc-0baefd53a6b1,941b800f65cb488,aff68cd4e61c6c9,Pirkimo-pardavimo sutartis,2024-10-10T00:00:00,LIETUVA,17800.0,Euras,Bankiniu pavedimu,2024-10-15T10:59:02
+8ad9ce17-7231-4164-8a71-9f5cdd3fe32f,dc0df9e282bbb9d,7d770bcaa6fa2cb,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2024-08-31T00:00:00,LIETUVA,16000.0,Euras,Nenurodyta,2024-08-31T13:15:46
+8b0cf06b-ab72-42ee-b23f-147d563d0caf,05cb3d525f2a2b4,a323cb4e63f7406,Pirkimo-pardavimo sutartis,2021-07-30T00:00:00,LIETUVA,4500.0,Euras,Grynaisiais pinigais ir bankiniu pavedimu,2021-08-02T10:25:31
+8b2901b5-8010-43b4-95a0-9de2b5d29f10,8cfb485b04b830c,f2f9422e4b5ccab,Mainų sutartis,2024-04-23T00:00:00,LIETUVA,5379.2,Euras,Nenurodyta,2024-11-21T09:18:46
+8b77a912-9a0a-48d7-8324-3fd5a877e0b6,203f4ea2ab069ff,26d0fc52aa30a1a,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-05-12T00:00:00,LIETUVA,12100.0,Euras,Bankiniu pavedimu,2022-05-12T16:39:31
+8bdb12ac-6954-4416-81ab-8cd367a4ec82,526aebda913a3b2,a1dd72c3b98ba8e,Nuosavybės teisės liudijimas,2025-03-03T00:00:00,LIETUVA,64000.0,Euras,Bankiniu pavedimu,2025-03-06T15:49:26
+8bf8da42-e23a-430a-8a49-548c46acd01c,8642abdbf0a5db7,82606f5eadf371f,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2021-06-01T00:00:00,NORVEGIJA,5500.0,Euras,Bankiniu pavedimu,2022-05-04T14:34:28
+8c3f2e85-985a-4590-9900-986f468ecd51,f266a3f8b949563,6a413775a4d5ecb,Pirkimo-pardavimo sutartis,2022-02-22T00:00:00,LIETUVA,5678.16,Euras,Bankiniu pavedimu,2022-02-22T22:11:19
+8c69f9b5-5751-4149-ad53-83d20f024217,4247ab464feb663,82dc8a270231140,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-06-12T00:00:00,PRANCŪZIJA,1200.0,Euras,Bankiniu pavedimu,2024-06-21T10:32:19
+8d177aa5-0b6e-4737-bc45-5452ae744638,dd3a6c10be415ce,962f6ae4b2cc211,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-06-13T00:00:00,LIETUVA,2500.0,Euras,Nenurodyta,2023-06-13T12:15:30
+8d79364d-e302-4212-94ed-1fac51c65ace,7ed111803f45a07,4e03fcd1a1bb9d7,Pirkimo-pardavimo sutartis,2025-10-14T00:00:00,LIETUVA,4450.0,Euras,Bankiniu pavedimu,2025-10-15T08:09:24
+8d9df1a5-4111-42fc-a88f-1898ca405fc4,1859f8d1e2d9557,aa2e0fc10cbdd55,Pirkimo-pardavimo sutartis,2023-08-31T00:00:00,LIETUVA,600.0,Euras,Grynaisiais pinigais,2023-08-31T13:55:16
+8e234368-fc1d-4ae7-a983-af60d1991625,2c0dff9223229df,161c15450a2d180,Sąskaita (mokėjimą patvirtinantis dokumentas),2026-10-08T00:00:00,LIETUVA,3500.0,Euras,Grynaisiais pinigais,2026-10-09T08:02:53
+8e7f6bed-ee22-4fe9-ae3a-37c75999920f,a7e0f62f65867e7,391f0f3aeee4e69,Pirkimo-pardavimo sutartis,2025-06-05T00:00:00,LIETUVA,19300.0,Euras,Bankiniu pavedimu,2025-06-05T14:31:26
+8e85e028-101d-4f1b-a58c-acf41dec08b0,c2718b848ecd3f4,e575d3692594473,Pirkimo-pardavimo sutartis,2024-05-12T00:00:00,LIETUVA,3500.0,Euras,Bankiniu pavedimu,2024-05-13T13:11:37
+8eda9212-3e7f-4e5c-8e6b-ce300858b53e,8b795218ce05627,18f1bf53fd0108c,Dovanojimo sutartis,2021-10-07T00:00:00,LIETUVA,31000.0,Euras,Nenurodyta,2021-10-07T12:56:48
+8efc79e2-bf32-475c-8c0e-8a3505e88e1d,67bccd27a47feae,6228b96d3e5054c,Pirkimo-pardavimo sutartis,2025-02-16T00:00:00,LIETUVA,350.0,Euras,Grynaisiais pinigais,2025-02-16T19:43:06
+8f7d73f1-8b52-4b2f-badd-0fc9567b0d39,c39750d05586199,d74c7549bdc956e,Pagaminimo deklaracija,2025-12-02T00:00:00,LIETUVA,9868.0,JAV doleris,Bankiniu pavedimu,2025-12-20T11:50:40
+8fa7a94d-f3a4-4c86-ac4b-eb5457178101,9bc0b0fbc0c3409,68134f7304819cf,Nuosavybės teisės liudijimas,2023-11-17T00:00:00,LIETUVA,300.0,Euras,Nenurodyta,2024-08-13T09:14:42
+8faf5411-3124-4554-9867-64b34b5867f1,e74534849261d3a,9dbc2998395a6c9,Juridinio asmens reorganizavimo dokumentas,2021-10-31T00:00:00,LIETUVA,24653.75,Euras,Nenurodyta,2021-12-06T16:56:31
+903f2d60-1367-47bb-bc21-c86bbea4cb45,d6b96c5a435d762,dd9ffc54498850a,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-09-13T00:00:00,LIETUVA,120395.0,Euras,Bankiniu pavedimu,2023-09-13T10:42:47
+90640cad-0f77-468f-b3d5-9088c8ca5b9f,eff2cd0b77007b2,a5eed962fe00b56,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2024-04-30T00:00:00,LIETUVA,6000.0,Euras,Nenurodyta,2024-05-11T07:45:52
+90c3ed76-76f7-4cbf-807d-ad3f39f69fdd,d3649f789e0a159,d61641773fd2c2d,Lizingo sutarties pabaigos aktas (pažyma),2023-02-06T00:00:00,LIETUVA,35710.73,Euras,Bankiniu pavedimu,2023-02-06T15:57:41
+91115208-fde4-4b67-9ca6-ab681cd5190b,415f5e1bb1ebfee,ab0a170f4f96561,Nuosavybės teisės liudijimas,2022-05-18T00:00:00,LIETUVA,24720.0,Euras,Bankiniu pavedimu,2022-05-27T17:56:13
+91acc814-54f9-449b-b318-5fdfc0c49921,6f4e280bebe01bf,5ec50891148e715,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-06-14T00:00:00,LIETUVA,2900.0,Euras,Grynaisiais pinigais,2023-06-14T11:49:34
+93b8560d-594e-4b41-b473-63254339f1d4,794e5591b87b857,b26747e64de3817,Sąskaita (mokėjimą patvirtinantis dokumentas),2025-04-22T00:00:00,VOKIETIJA,27978.0,Euras,Bankiniu pavedimu,2025-04-23T08:34:44
+93b8cd72-c3be-4039-8f20-83c0a89a58ec,19389f3e784cd80,a7fd2d208c819d9,Juridinio asmens reorganizavimo dokumentas,2021-10-31T00:00:00,LIETUVA,91597.0,Euras,Nenurodyta,2021-12-06T16:56:27
+93f8001c-1895-4e44-843b-dc3bf966d07f,3a5b0d693a44c11,3d57008b77c36f4,Sąskaita (mokėjimą patvirtinantis dokumentas),2025-08-11T00:00:00,LIETUVA,4000.0,Euras,Grynaisiais pinigais,2025-08-11T10:38:04
+951980d2-aeab-4c79-afdf-c483d680a79d,700de0b00a1b502,c4566461734e2f9,Lizingo sutarties pabaigos aktas (pažyma),2021-10-18T00:00:00,LIETUVA,7300.0,Euras,Bankiniu pavedimu,2021-10-20T16:51:20
+9544cad8-64fc-407b-bcd1-818d39fc924b,2cde28892372e5b,486599f72f775f4,Pirkimo-pardavimo sutartis,2024-04-08T00:00:00,LIETUVA,1600.0,Euras,Grynaisiais pinigais,2024-04-08T18:39:28
+95e46029-cbfd-4388-8595-6d0e6046bbe6,8131016c5317b60,926f9f735163c9b,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2025-07-23T00:00:00,LATVIJA,0.0,Euras,Nenurodyta,2025-07-25T09:11:43
+9867fcd0-c7ec-42ef-bf57-0f8107384b62,849ef36c485f70a,37102221e01512d,Pirkimo-pardavimo sutartis,2022-04-26T00:00:00,LIETUVA,300.0,Euras,Grynaisiais pinigais,2022-04-29T21:08:11
+98b40900-7bf9-4151-8860-f46815e84be1,0587e0ab2df17d4,adeaec48e478969,Viešame prekių aukcione parduoto turto perdavimo aktas,2023-06-12T00:00:00,LIETUVA,550.0,Euras,Bankiniu pavedimu,2023-06-12T15:46:22
+994be8f8-2490-4915-8b3c-fcb08db74e5c,3cf44bce8f92880,165b7fdfe90d0e5,Lizingo sutarties pabaigos aktas (pažyma),2021-11-19T00:00:00,LIETUVA,2525.0,Euras,Bankiniu pavedimu,2021-11-19T15:15:29
+9a748570-1340-456a-a1c2-1385da869ea8,f596820f19c5112,9749fd1cbe0fcb2,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-01-24T00:00:00,PRANCŪZIJA,74535.0,Euras,Bankiniu pavedimu,2022-01-24T13:24:59
+9aae148a-1f7c-4839-8440-119b0c686b4a,98308b300d9c4f1,051a9913de9bfed,Dovanojimo sutartis,2023-04-01T00:00:00,LIETUVA,14000.0,Euras,Nenurodyta,2023-04-01T17:51:55
+9ae15518-96fc-4575-9bd4-6d3d82cf4f68,b657c19b5ca7570,a457e486d66f1c0,ENTP priėmimo – perdavimo aktas,2025-04-22T00:00:00,LIETUVA,1360.0,Euras,Grynaisiais pinigais,2025-04-25T12:20:16
+9bc72514-75fe-4cd1-9039-59d4456dcd36,a2eb5950329c111,582262f7cfa5d69,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2023-10-02T00:00:00,SUOMIJA,700.0,Euras,Bankiniu pavedimu,2023-10-05T09:22:28
+9c1d4549-377a-4abc-a287-2942038cd892,ff0d38049326dad,39d7ac253c36d59,Lizingo sutarties pabaigos aktas (pažyma),2023-07-26T00:00:00,LIETUVA,44165.0,Euras,Bankiniu pavedimu,2023-12-21T08:36:56
+9c6600dd-26d1-44a8-a076-91d97749876a,183f068f0716fe9,d9cd00f2858addf,Paveldėjimo teisės liudijimas,2025-11-12T00:00:00,LIETUVA,5000.0,Euras,Nenurodyta,2025-11-14T15:35:44
+9cbf8414-699a-4544-9c54-d1b69cc13e12,4d405bf06c96379,e362e8d4f16fe93,Nuosavybės teisės liudijimas,2022-04-04T00:00:00,LIETUVA,18000.0,Euras,Bankiniu pavedimu,2022-04-05T09:06:14
+9d164b36-2c16-42e0-985d-88e60621c7a4,f31040b175c186d,3aab67392a66264,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2026-07-01T00:00:00,LIETUVA,23000.0,Euras,Nenurodyta,2026-07-01T10:05:08
+9e3179b3-b332-4aa3-86a9-8fe15fe2bc86,0b301baa048c642,63646717c1a1154,Mainų sutartis,2025-03-07T00:00:00,LIETUVA,5000.0,Euras,Bankiniu pavedimu,2025-03-07T15:33:11
+9e7a245d-85ba-4ebb-bd7d-1f755d6ee1dd,40164d4b3107597,7e7487b4f6bce2b,Pirkimo-pardavimo sutartis,2023-11-28T00:00:00,LIETUVA,2000.0,Euras,Bankiniu pavedimu,2023-11-28T11:46:46
+9eac098e-e072-4e75-8a49-c5d73b2b819b,104483a207d8838,b0d12f4c72d9c31,Lizingo sutarties pabaigos aktas (pažyma),2024-09-23T00:00:00,LIETUVA,91839.0,Euras,Bankiniu pavedimu,2024-09-24T17:33:36
+9f0cefd2-c635-4c1a-a3a7-7554b168940b,f099df0fed978c3,37a2b9805866677,Pirkimo-pardavimo sutartis,2025-09-05T00:00:00,LIETUVA,5200.0,Euras,Bankiniu pavedimu,2025-09-05T22:12:08
+a0515dbc-e79e-4280-a250-f614336638fc,9abce4b7ce3a6d8,e531ea1a1a37e71,Dovanojimo sutartis,2026-10-26T00:00:00,LIETUVA,1000.0,Euras,Nenurodyta,2026-10-26T15:09:44
+a06f12ef-3a0d-4556-b054-70a6273dafc3,416b5f22ddfb216,21d6dd2d8d32171,Laimėjimą patvirtinantis dokumentas,2025-04-08T00:00:00,ITALIJA,4972.0,Euras,Bankiniu pavedimu,2025-05-08T14:24:27
+a0cd0ede-c3f4-41b5-9edd-7d95883f1659,63f6a7bd861cda2,89eb07ac5171f85,Nuosavybės teisės liudijimas,2026-01-06T00:00:00,LIETUVA,1000.0,Euras,Nenurodyta,2026-01-06T14:09:23
+a27d96dc-ba3e-41ec-a6dd-db792d4c2497,b69a9300a0aa9ac,c343e0023f25dcd,Juridinio asmens reorganizavimo dokumentas,2021-10-31T00:00:00,LIETUVA,25579.4,Euras,Nenurodyta,2021-12-06T16:56:31
+a38d20ed-a0f0-4c43-bf9d-59ec0a0c4e98,985622b65d4250e,9f3c3d2840a21fe,ENTP priėmimo – perdavimo aktas,2025-02-03T00:00:00,LIETUVA,100.0,Euras,Grynaisiais pinigais,2025-02-03T16:31:06
+a3a6bcfe-5c18-43b2-a703-4e7abecbcc2d,66fbc5f1628dd93,ede522e1ece2331,Lizingo sutarties pabaigos aktas (pažyma),2021-07-02T00:00:00,LIETUVA,9000.0,Euras,Bankiniu pavedimu,2021-07-02T17:07:09
+a3d4a11f-9615-4660-a98b-5c952ce1437b,c890287c5c4909b,33f328e3abdf905,ENTP priėmimo – perdavimo aktas,2022-08-17T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2022-08-19T09:07:06
+a436ec22-4780-4a3f-8bd4-2dafc0f44b96,0f40173e5a71763,634e4db102e56a5,Pirkimo-pardavimo sutartis,2022-10-03T00:00:00,LIETUVA,2050.0,Euras,Grynaisiais pinigais,2022-10-04T10:25:09
+a43bb4ea-aea6-4ce9-ba00-0610aaec08b4,3e805297e236de2,b8e7ba551ae0009,Pirkimo-pardavimo sutartis,2024-08-29T00:00:00,LIETUVA,150.0,Euras,Grynaisiais pinigais,2024-08-30T08:08:44
+a47e9130-c4ea-421a-9648-ec13eefde778,824c99198a74b75,444bfa6a69325cd,Pirkimo-pardavimo sutartis,2022-08-22T00:00:00,LIETUVA,4000.0,Euras,Grynaisiais pinigais,2022-08-22T23:45:12
+a495e04f-a7bb-419f-85f0-0ea8df7decf7,b740885dae84800,4cd42c8ddb3a839,Mainų sutartis,2021-05-24T00:00:00,LIETUVA,1400.0,Euras,Grynaisiais pinigais,2021-05-25T23:44:24
+a4c8965d-c348-4430-bd0e-a4f86aeb66b1,9372ff011d60a0e,6540f43cb601625,Pirkimo-pardavimo sutartis,2026-04-08T00:00:00,LIETUVA,450.0,Euras,Grynaisiais pinigais,2026-04-08T13:05:38
+a5143192-4f25-4453-a4e0-815c105fbf08,7ecb9d868ebc207,820d943a412e1b9,Nuosavybės teisės liudijimas,2022-04-20T00:00:00,LIETUVA,150.0,Euras,Nenurodyta,2022-09-09T08:04:52
+a5ccf960-f936-4620-bc27-c8295d516901,c537fc006b3fb4a,626afa5a9a1b4b0,Pirkimo-pardavimo sutartis,2021-10-16T00:00:00,VOKIETIJA,6300.0,Euras,Grynaisiais pinigais,2021-10-20T10:35:35
+a5e0d696-dbf0-496c-a192-b627128c79b1,cd71f12ded2db6e,c09bf73a2ec4388,Viešame prekių aukcione parduoto turto perdavimo aktas,2025-09-03T00:00:00,LIETUVA,20374.0,Euras,Bankiniu pavedimu,2025-10-04T21:48:41
+a6be95d1-a2ad-48f4-9d12-e5c8d3fa383f,33722154946907e,fb10267597ab3e7,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2024-04-23T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2024-11-07T09:46:33
+a836744b-a7e1-4f5b-a04a-9f0ebdf09ec0,104e418e82b3fd3,865190cb2ae03bf,ENTP priėmimo – perdavimo aktas,2025-10-22T00:00:00,LIETUVA,48.6,Euras,Bankiniu pavedimu,2025-10-23T09:38:39
+a89aa681-a184-48a0-9856-269074b6ef74,773ed633f1b891f,29b18a244f02f57,Sandorio anuliavimo dokumentas,2026-04-17T00:00:00,LIETUVA,7800.0,Euras,Bankiniu pavedimu,2026-04-17T16:50:39
+a9a06651-3349-4e17-8782-4f63d002a8f2,f152bfc80125630,d381cc6e4c528b9,Sandorio anuliavimo dokumentas,2025-05-12T00:00:00,LIETUVA,3850.0,Euras,Bankiniu pavedimu,2025-05-12T14:29:19
+aaa1cb4c-e598-4cd2-99b5-546f76518e3a,af49bfd56c4eee6,0e0bcc7e320b2f3,Nuosavybės teisės liudijimas,2026-07-01T00:00:00,VOKIETIJA,4000.0,Euras,Grynaisiais pinigais,2026-07-14T12:30:15
+aadd7f08-69d6-44fe-9e4f-1007231f4c28,854daf9439aa05b,efe582ff20da6e9,Paveldėjimo teisės liudijimas,2025-07-25T00:00:00,LIETUVA,1500.0,Euras,Nenurodyta,2025-08-23T10:43:06
+abbfad29-121d-4922-87e6-f5d68547ac14,411c84a055a7bbc,1d3a024132211b1,Pagaminimo deklaracija,2022-05-24T00:00:00,LIETUVA,57500.0,Euras,Bankiniu pavedimu,2022-05-24T10:23:23
+abf42047-3355-473f-8563-85d845380cad,cb7d1b6d751156a,da75fab540e3bbd,Pirkimo-pardavimo sutartis,2021-09-14T00:00:00,DANIJA,2400.0,Euras,Bankiniu pavedimu,2021-09-14T14:29:46
+ac03c553-06ee-4f36-87d6-334af445d551,3008491b7f640ee,0d50c152f89a199,Pirkimo-pardavimo sutartis,2022-08-05T00:00:00,ITALIJA,11300.0,Euras,Nenurodyta,2022-08-16T09:07:27
+ac72e763-ba55-44d6-ad2d-d707c129de43,8d8c2d0b4990313,87a60420d13b23e,Lizingo sutarties pabaigos aktas (pažyma),2021-09-24T00:00:00,LIETUVA,40000.0,Euras,Nenurodyta,2021-09-28T11:57:18
+ac7e3190-ec75-48c5-b781-14db60ad8043,4fb955cf79645d3,9b8d4902dc2811c,Pirkimo-pardavimo sutartis,2024-10-03T00:00:00,LIETUVA,8350.0,Euras,Bankiniu pavedimu,2024-10-03T19:12:27
+aca3bd00-9c53-461b-8ae2-bff0b173fcdd,4396f6db6b8346d,50c995c460b2a7d,Pagaminimo deklaracija,2021-06-01T00:00:00,LIETUVA,21457.95,Euras,Bankiniu pavedimu,2021-06-01T09:06:47
+acd9f02a-d306-49cf-a7ea-9ba275d75aa1,1e72c7ee18a1777,1d8b6de787b0295,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2023-09-05T00:00:00,LIETUVA,22499.5,Euras,Nenurodyta,2023-09-05T16:44:05
+ad55a81b-743d-4d11-814b-251506cb0007,222644b45347913,4a6ef74dd281f60,Pirkimo-pardavimo sutartis,2024-12-18T00:00:00,LIETUVA,270.0,Euras,Grynaisiais pinigais,2024-12-18T16:53:10
+addbdd7f-bbb0-4ab6-bf9c-1932150dc933,c02a6946b13da6d,f7d5ebfefba5869,Lizingo sutarties pabaigos aktas (pažyma),2023-10-05T00:00:00,LIETUVA,15300.0,Euras,Bankiniu pavedimu,2023-10-05T17:59:02
+af0a8d32-e985-4c02-b773-f06d86ba2e8b,8da078228f114c0,3674075a55bc61a,Pirkimo-pardavimo sutartis,2023-06-27T00:00:00,DANIJA,14000.0,Euras,Bankiniu pavedimu,2023-07-02T13:42:52
+afdaeb81-b681-437c-8bfd-7a9f39f77cf6,3de2693a6371e57,31522c99b9b20d7,Pagaminimo deklaracija,2021-07-30T00:00:00,VOKIETIJA,1800.0,Euras,Grynaisiais pinigais,2021-08-01T21:19:01
+b0951636-06c9-4397-b1af-91fb20eaa7f6,0b22edebf605e42,b756bd6d779f4d3,Dovanojimo sutartis,2023-09-01T00:00:00,LIETUVA,200.0,Euras,Nenurodyta,2023-09-01T14:54:24
+b0f65cd9-d73b-4ae4-8f45-6eb5b1d8c032,baede21f548fef5,4e8f42853adac74,Pirkimo-pardavimo sutartis,2023-09-14T00:00:00,LIETUVA,4900.0,Euras,Grynaisiais pinigais,2023-09-14T16:30:00
+b1335c8c-18e6-4b26-bb83-7d4e6a131601,cb50e21850be384,29dc21c9e9cff7a,Pirkimo-pardavimo sutartis,2023-10-11T00:00:00,LIETUVA,5600.0,Euras,Bankiniu pavedimu,2023-10-11T15:43:16
+b3741fdf-5b95-4023-bc74-9106846ce43b,36d18931f448046,d6f00fe88f2a842,Pirkimo-pardavimo sutartis,2024-08-26T00:00:00,LIETUVA,4598.0,Euras,Bankiniu pavedimu,2024-09-09T10:24:05
+b3c04907-13a9-4d3b-a543-5c86ae3cdc2b,34f2d85e9579d97,f146b03e0a55955,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-05-06T00:00:00,VOKIETIJA,21734.1,Euras,Bankiniu pavedimu,2022-05-20T12:15:04
+b3ca5573-055f-4e0a-8bd6-54578374edfa,f7f207a7b8b27bc,c3b44be5ddd4235,Pirkimo-pardavimo sutartis,2025-07-11T00:00:00,LIETUVA,1000.0,Euras,Grynaisiais pinigais,2025-07-19T07:38:54
+b3d02a50-409e-4b94-af7d-86c0946c41aa,d077c20483097b6,c1409a3c817603d,Pirkimo-pardavimo sutartis,2021-11-03T00:00:00,NYDERLANDAI,6150.0,Euras,Nenurodyta,2021-11-05T20:01:55
+b3e05e08-6b28-436b-adbc-b20ae870b023,bfe2165ef71dedf,b49e4a77ac440e0,Paveldėjimo teisės liudijimas,2023-04-07T00:00:00,LIETUVA,150.0,Euras,Nenurodyta,2023-04-11T16:30:42
+b41c9363-b547-486c-9017-a64867f9c9a9,55a04004e46421b,822a395a27154bf,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-10-16T00:00:00,LENKIJA,36900.0,Euras,Bankiniu pavedimu,2023-11-06T14:47:07
+b4fb357a-599f-4e5b-8965-8cf2d4f45a22,0d59760ec7b9200,2f986d32bf27bf2,Viešame prekių aukcione parduoto turto perdavimo aktas,2021-07-08T00:00:00,SUOMIJA,3200.0,Euras,Grynaisiais pinigais,2021-07-31T14:07:59
+b7cf45e6-2d58-4135-9e9f-e9b3e18e4d0a,7736c0d6e1bcc15,0c8d75cc953f5cf,Pirkimo-pardavimo sutartis,2021-04-11T00:00:00,ŠVEDIJA,3600.0,Euras,Grynaisiais pinigais,2021-05-05T11:52:17
+b8194e09-c90a-4316-b9a7-28fa498d1641,8034d129a3d48c1,b5b3a267aad57db,Pagaminimo deklaracija,2023-08-21T00:00:00,DANIJA,2400.0,Euras,Bankiniu pavedimu,2023-08-30T11:46:38
+b82b6530-3c53-4c6d-86bc-174cf014bdd8,c54459ebd65321f,3ebfa061a7edafa,Pirkimo-pardavimo sutartis,2022-08-02T00:00:00,LIETUVA,100.0,Euras,Grynaisiais pinigais,2022-08-02T10:33:25
+b83ada0e-85b7-45b8-9125-49901e4513d6,32ddedbc8826d92,6fdeae68ef33efc,Lizingo sutarties pabaigos aktas (pažyma),2025-12-10T00:00:00,LIETUVA,59023.8,Euras,Bankiniu pavedimu,2025-12-15T07:42:59
+b86a52dc-7220-438a-8991-59cf9cba542c,7a36935f03222be,85d4c2d64a4f6fa,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2022-04-20T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2022-11-28T11:51:05
+ba3ad9dd-6e8a-4696-8ef1-e2096c693c5a,9c58d39ac4decf7,9ecd64e6d87c1a4,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2026-07-14T00:00:00,LIETUVA,16999.0,Euras,Nenurodyta,2026-07-14T17:37:58
+ba6430c1-2d28-473e-84d1-02cb9b66a65c,c082a8aad7f1c57,e9bde461bc26fa5,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2025-12-01T00:00:00,LIETUVA,5345.83,Euras,Bankiniu pavedimu,2025-12-09T12:08:58
+ba6db921-10e5-4225-b345-13e6099f45e2,ff8005934623766,123a10003e0bec0,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2022-02-04T00:00:00,PRANCŪZIJA,2500.0,Euras,Grynaisiais pinigais,2022-02-08T20:57:46
+bafe68ee-027e-461e-b1c2-a354eb965d30,c5a0e7d5169fac5,866a0fe487835de,Dovanojimo sutartis,2024-06-07T00:00:00,LIETUVA,1680.0,Euras,Nenurodyta,2024-06-08T07:57:33
+bb126311-fb13-4644-9f24-515d01c022cf,5d2a59ff2d96c49,8114432158819f8,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-06-07T00:00:00,LIETUVA,11500.0,Euras,Bankiniu pavedimu,2024-06-07T12:25:40
+bb5f7595-04ab-4af6-9109-891fac15be08,c27f28257740f2a,153bd05a105c7fa,Laimėjimą patvirtinantis dokumentas,2024-10-01T00:00:00,SUOMIJA,986.0,Euras,Bankiniu pavedimu,2024-10-22T09:07:20
+bba8fbc5-4d10-448c-af46-19619cc04378,3c8e56ae7ca39e9,69268abc1ad827f,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2022-09-26T00:00:00,LIETUVA,2288.0,Euras,Nenurodyta,2022-11-08T08:37:08
+bbad6207-e909-4cc5-ad95-a9a0eabe7f1a,e80d0a216030012,83a7b8102668eaa,Nuosavybės teisės liudijimas,2025-09-18T00:00:00,LIETUVA,300.0,Euras,Nenurodyta,2026-05-13T10:52:19
+bc27810c-1116-4d73-abf0-5ad4dc12aa55,fbf0e7fde101acb,427719155376743,Pirkimo-pardavimo sutartis,2025-04-24T00:00:00,LIETUVA,150.0,Euras,Grynaisiais pinigais,2025-05-12T17:55:36
+bcd84ad9-e6ce-4a41-aedb-0d1ddedeba3a,7904288884ab936,0a8d94880acf72f,ENTP priėmimo – perdavimo aktas,2025-07-09T00:00:00,LIETUVA,130.0,Euras,Grynaisiais pinigais,2025-07-09T15:46:32
+bd1433de-fa65-4f8c-9047-1966c08f4c49,fbf738a24447a73,f3c86b497af7f81,Pirkimo-pardavimo sutartis,2025-06-22T00:00:00,LIETUVA,1000.0,Euras,Bankiniu pavedimu,2025-06-23T09:16:44
+bdae49f0-6f5b-4620-a442-1327e1e5cf82,7774363699ac2e4,d32a58890547bc2,Pirkimo-pardavimo sutartis,2021-08-09T00:00:00,LIETUVA,123.69,Euras,Grynaisiais pinigais,2021-08-10T16:30:31
+bde8973e-27a7-40bc-b970-169749179191,64f6c8609478703,81133160a30f23c,Lizingo sutarties pabaigos aktas (pažyma),2025-03-06T00:00:00,LIETUVA,82885.0,Euras,Bankiniu pavedimu,2025-03-10T14:59:31
+bf05358a-4587-4d50-9e45-9b89ad80bb72,f11f8ee4c22f6ff,dcd125e81539640,Pirkimo-pardavimo sutartis,2025-11-07T00:00:00,LIETUVA,4235.0,Euras,Bankiniu pavedimu,2025-11-10T14:32:25
+bfe1d500-4057-4d23-a41a-ef63be356671,58c0f93523fe445,f01be7700e497d0,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-04-14T00:00:00,LIETUVA,17271.0,Euras,Nenurodyta,2022-04-25T10:39:17
+c06ccfcf-e6fb-41a8-b8ff-39db9d273169,bca5504373e1c08,71861058e9a5c02,Pirkimo-pardavimo sutartis,2024-11-04T00:00:00,VOKIETIJA,4500.0,Euras,Bankiniu pavedimu,2024-11-05T22:51:31
+c07c7e7b-8ae7-44e5-b5af-7dd3642ae705,2b12abb573acd67,6d8ff7020ce4b06,ENTP priėmimo – perdavimo aktas,2022-07-13T00:00:00,LIETUVA,55.86,Euras,Grynaisiais pinigais,2022-07-13T11:22:07
+c179da82-faca-4d6e-b3ae-4c072299c52a,4ae74ee68b66612,060b59d95f6420a,Mainų sutartis,2025-11-29T00:00:00,LIETUVA,5000.0,Euras,Bankiniu pavedimu,2025-11-29T16:27:40
+c269786a-b67f-4f74-8d2d-96e74504e0c6,654ea4f6454b1f4,8d8261c5dab20e3,Lizingo sutarties pabaigos aktas (pažyma),2022-01-06T00:00:00,LIETUVA,40100.0,Euras,Bankiniu pavedimu,2022-01-13T09:35:28
+c28880b8-1c78-466f-b539-5d359769675e,18c64950597caf8,0db7a72f86d8ab5,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-04-02T00:00:00,LIETUVA,6050.0,Euras,Bankiniu pavedimu,2024-04-17T14:00:11
+c2b0fc44-fddd-41a4-a768-48851595ba3b,23a26539790ed77,9923c9e8197c29f,Pirkimo-pardavimo sutartis,2025-06-17T00:00:00,LIETUVA,1000.0,Euras,Grynaisiais pinigais,2025-06-17T08:05:59
+c2c6d16f-9780-44c6-b2ff-78a5983dc986,6fafa7d4797edb8,9bc3a14a6689d95,Paveldėjimo teisės liudijimas,2022-07-13T00:00:00,LIETUVA,100.0,Euras,Nenurodyta,2023-01-12T11:40:43
+c358d7d9-5bf8-4410-aee5-46920e25ce6e,297ebc0ebab9c9c,8e1052c71e63264,Dovanojimo sutartis,2026-07-08T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2026-07-08T21:02:54
+c37be439-3876-41cf-aa17-879132015734,55e0229a3d9d20a,d13acae76cbaeb6,Viešame prekių aukcione parduoto turto perdavimo aktas,2025-12-12T00:00:00,LIETUVA,2370.0,Euras,Bankiniu pavedimu,2025-12-12T16:36:38
+c3d1cd0f-11d6-4a3e-8d0e-2ed3fe792aa5,3104e99b5aefb9a,35cffaa043a328b,Paveldėjimo teisės liudijimas,2022-01-31T00:00:00,LIETUVA,1500.0,Euras,Nenurodyta,2022-02-02T14:06:34
+c46a7428-3b58-45a3-b400-bb0c6c493a14,c4094b16f225647,f12efaed6454c7a,Pirkimo-pardavimo sutartis,2021-07-27T00:00:00,LIETUVA,600.0,Euras,Grynaisiais pinigais,2021-07-27T15:16:14
+c4de7ca6-57da-4530-b0f6-a05305357847,9d77cfb1e807839,3e3680c539960b0,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2022-05-19T00:00:00,LIETUVA,500.0,Euras,Grynaisiais pinigais,2022-05-19T16:34:05
+c74d83a8-ffdd-4b7f-80cd-1a45581d2a15,328e41c2d4a35d1,afbd9dcb8fef1e2,Sąskaita (mokėjimą patvirtinantis dokumentas),2021-09-17T00:00:00,VOKIETIJA,21127.86,Euras,Bankiniu pavedimu,2021-09-17T14:20:45
+c7517a80-c48e-4e1b-803c-5614b303192e,e45630306aa94ee,952cc795b2c104b,Sąskaita (mokėjimą patvirtinantis dokumentas),2021-07-15T00:00:00,LIETUVA,20849.21,Euras,Bankiniu pavedimu,2021-07-21T14:20:38
+c774f802-ba40-4bb4-b98c-451e79178e05,d6885ee21e9c640,f147af5f1658213,Pirkimo-pardavimo sutartis,2022-01-20T00:00:00,VOKIETIJA,34700.0,Euras,Grynaisiais pinigais ir bankiniu pavedimu,2022-02-12T08:25:29
+c77b4599-4c8a-4f38-9980-b6ebc2112862,bc36b093655e564,f6a2610c723bcb0,Pirkimo-pardavimo sutartis,2025-11-25T00:00:00,LIETUVA,1000.0,Euras,Grynaisiais pinigais,2025-11-25T15:02:43
+c7d3c74e-efc2-45c9-a972-a7b9cea1b4c3,ccdae6caf0cb773,5b01e2c26073c8a,Pirkimo-pardavimo sutartis,2022-03-25T00:00:00,LIETUVA,350.0,Euras,Grynaisiais pinigais,2022-03-25T18:35:06
+c7e12682-82fc-49c8-9650-a021cac8f8c0,edbe16863beb640,7ec6dcf067cd88d,Sandorio anuliavimo dokumentas,2023-06-27T00:00:00,LIETUVA,43453.0,Euras,Bankiniu pavedimu,2023-07-12T11:18:37
+c7fba492-9e34-4215-8efa-24d386efaee0,5ddd16ebf05c7f2,c422fa4d3f59b4c,Pirkimo-pardavimo sutartis,2023-02-11T00:00:00,LIETUVA,8200.0,Euras,Bankiniu pavedimu,2023-02-18T10:48:15
+c8013251-aeca-44e7-a9e0-f97045dd204c,a8ae57848e6eccf,092d994e26c56db,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2023-03-06T00:00:00,DANIJA,1700.0,Euras,Bankiniu pavedimu,2023-03-10T12:45:39
+c89b8aa7-e1ca-4828-97cc-f8d69711119e,7a84341633c96db,758a480aff3cdcc,Viešame prekių aukcione parduoto turto perdavimo aktas,2023-02-26T00:00:00,VOKIETIJA,3618.0,Euras,Bankiniu pavedimu,2023-03-17T09:51:42
+c8efadeb-c244-4e0a-9972-ed47ae172067,beb59521aa3a293,06fec6c3b81ec40,Mainų sutartis,2025-09-10T00:00:00,LIETUVA,30.0,Euras,Grynaisiais pinigais,2025-09-10T16:02:00
+c932c625-fe1c-4d83-91d5-2dbcaa6620cd,81033f70c2eaea1,866d906313b644b,Juridinio asmens reorganizavimo dokumentas,2021-10-31T00:00:00,LIETUVA,23534.5,Euras,Nenurodyta,2021-12-06T16:56:30
+c9f0af16-0bbe-423d-aaa9-c6dbac7ca7ea,45a8848c8a8a122,088b14b28749187,Pirkimo-pardavimo sutartis,2024-08-24T00:00:00,LIETUVA,3500.0,Euras,Grynaisiais pinigais,2024-08-28T15:12:03
+cbd49e01-f1d9-491c-bd30-356632ec815a,b6136d02af41dda,192cde56c2a4572,Juridinio asmens reorganizavimo dokumentas,2023-10-25T00:00:00,LIETUVA,0.29,Euras,Nenurodyta,2023-10-25T14:26:36
+cdcf5069-ca47-4179-b0dd-ec924cc6747d,b2d4f329dc73235,3eec13000a2dfa6,ENTP priėmimo – perdavimo aktas,2025-04-23T00:00:00,LIETUVA,130.0,Euras,Grynaisiais pinigais,2025-04-23T16:36:40
+ceaf619b-c1af-4fe3-8399-2887e62e14d9,84e8d870db125c5,696c418eb3c1949,Pirkimo-pardavimo sutartis,2023-01-26T00:00:00,LIETUVA,3200.0,Euras,Nenurodyta,2023-01-26T13:51:40
+d03edf42-2e2e-48dc-a1d3-9a4fd510b65d,e7c7d6e2dff1ed5,56c315b6b188e02,ENTP priėmimo – perdavimo aktas,2022-07-12T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2022-07-12T13:05:53
+d04e5999-6589-4c6e-af24-16c0e619813e,432ce3dc3b89128,c705b485d179a8c,Viešame prekių aukcione parduoto turto perdavimo aktas,2023-05-10T00:00:00,LIETUVA,1940.0,Euras,Bankiniu pavedimu,2023-05-12T07:57:06
+d05538b5-af54-41a9-92c2-fcdb4aa65a3e,c771de480a0d73e,8c6ff181beb66c2,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-08-18T00:00:00,LIETUVA,46659.06,Euras,Bankiniu pavedimu,2023-08-18T14:32:26
+d08fcb1b-ea08-4a8b-b4a7-d7201c97ca8e,e2b66cd14adc268,b02f82321bd4c0d,Pirkimo-pardavimo sutartis,2025-05-15T00:00:00,LIETUVA,3500.0,Euras,Grynaisiais pinigais,2025-05-16T08:08:34
+d1225a49-b985-441f-a464-477224721f9a,3b7939d3ad4a6b7,14f261e42a9f8a1,Paramos sutartis,2024-12-20T00:00:00,LIETUVA,1337.5,Euras,Nenurodyta,2025-04-04T10:35:13
+d22cb98d-5aa2-4a4c-bf66-45c3bad944ba,7ec0fb893aeb5ed,858e2b1ae446437,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2023-12-01T00:00:00,ESTIJA,111660.0,Euras,Bankiniu pavedimu,2023-12-08T11:07:48
+d24b93b8-f52b-4ebb-ab3f-e3995040e801,04c1ff2c4d48a8a,7a77108a17d0ce1,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-06-02T00:00:00,LIETUVA,30158.0,Euras,Bankiniu pavedimu,2022-06-03T10:50:57
+d2920fba-a410-4705-a4cb-27343e540dbf,aa86897e44a4e04,409007975955f79,Pirkimo-pardavimo sutartis,2024-04-19T00:00:00,LIETUVA,1800.0,Euras,Grynaisiais pinigais,2024-04-20T08:37:28
+d2faa0be-a2a1-4974-9258-453952ec01c0,2a4a4b42e5a86de,7a8c47e65d65905,Pirkimo-pardavimo sutartis,2024-08-02T00:00:00,ESTIJA,1117.0,Euras,Bankiniu pavedimu,2024-08-06T08:59:47
+d36a1559-afe5-4a13-aafd-f85f44e964b4,1264547c20877ad,45145bf81d60ef2,Lizingo sutarties pabaigos aktas (pažyma),2026-02-10T00:00:00,LIETUVA,21250.0,Euras,Bankiniu pavedimu,2026-02-10T15:30:33
+d457b5d9-df30-4c9f-8a14-6569e11e1a79,350a9fffbc41c6a,97d481b6f6db637,Pirkimo-pardavimo sutartis,2023-11-27T00:00:00,LIETUVA,190.0,Euras,Grynaisiais pinigais,2023-11-28T10:47:28
+d505e8b0-37df-4b74-a8a6-282e384d4cb9,13765d30d30f52e,bcf0424c0ab8ed5,Pirkimo-pardavimo sutartis,2026-04-13T00:00:00,BELGIJA,1000.0,Euras,Grynaisiais pinigais,2026-05-04T10:21:32
+d593e061-34db-487c-8c51-179e5cd90cba,9d2178ab8388883,1ebe61ff9a02a05,Pirkimo-pardavimo sutartis,2023-06-14T00:00:00,LIETUVA,108900.0,Euras,Nenurodyta,2023-06-22T08:30:37
+d5b33cca-c48a-43d0-814d-1c139924ff4a,4afee6afaadfce5,e36c6bfc61e233e,Sąskaita (mokėjimą patvirtinantis dokumentas),2021-11-22T00:00:00,PRANCŪZIJA,5000.0,Euras,Bankiniu pavedimu,2021-11-26T19:41:05
+d6a4b209-50a8-4e57-84fd-e9aba445ffb8,7283a2ac936d76a,82a9bbe9ec7a80f,Lizingo sutarties pabaigos aktas (pažyma),2022-06-16T00:00:00,LIETUVA,21000.0,Euras,Bankiniu pavedimu,2022-06-17T13:22:16
+d6a8fb32-0f97-40dd-a533-90f03162b070,f3f15b028d5e723,47cdc1502f1faee,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2021-08-19T00:00:00,LIETUVA,10300.0,Euras,Nenurodyta,2021-08-19T08:27:53
+d72e4881-c697-464b-b8a9-a7fb96081851,652b7b68238a850,e10a4934aa69994,Pirkimo-pardavimo sutartis,2021-07-21T00:00:00,LIETUVA,1275.0,Euras,Nenurodyta,2021-08-04T14:36:55
+d73c841f-c4b3-4134-bd16-1be5be113451,c31d810dc2b35d6,caffba5fb526ab4,Sąskaita (mokėjimą patvirtinantis dokumentas),2022-02-18T00:00:00,NYDERLANDAI,1100.0,Euras,Bankiniu pavedimu,2022-02-21T20:55:19
+d7ea5c0f-2873-4d02-ae67-f6d20579db40,1e5def1faded57e,1bfa38dccf4ee14,Sandorio anuliavimo dokumentas,2022-07-02T00:00:00,LIETUVA,6200.0,Euras,Grynaisiais pinigais,2022-07-02T11:10:30
+d8a679e4-0d3f-4f66-b502-43eb84d55b05,ce37329a97c7c95,56b035532a25b54,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-10-10T00:00:00,JUNGTINĖS AMERIKOS VALSTIJOS,5025.0,Euras,Bankiniu pavedimu,2023-12-06T16:45:09
+d8c307da-4b05-4da8-a436-2139bdccf9c1,671e348f4bfaafe,20a2359fb4e62e0,Sąskaita (mokėjimą patvirtinantis dokumentas),2021-06-08T00:00:00,LIETUVA,4000.0,Euras,Bankiniu pavedimu,2021-06-08T13:30:34
+d9c3fcc3-8cce-405d-a9c9-24fb7f7885c8,7acbbed3a2a334c,005ea98507ce823,Juridinio asmens reorganizavimo dokumentas,2021-09-17T00:00:00,LIETUVA,883.0,Euras,Nenurodyta,2021-10-04T12:05:37
+d9e47f19-4c6e-42fd-8c32-461a20250370,fae36d788e1b637,0046adccb73471d,Sąskaita (mokėjimą patvirtinantis dokumentas),2021-08-17T00:00:00,SUOMIJA,3975.0,Euras,Bankiniu pavedimu,2021-11-17T08:29:55
+dab2383c-14db-43b6-8751-4da6e61046cc,c1ccd0cca3fa485,8a7e25fcbf099bb,Pirkimo-pardavimo sutartis,2026-01-02T00:00:00,LIETUVA,11900.0,Euras,Bankiniu pavedimu,2026-01-02T18:56:26
+dacff0f6-ecac-4e86-97e9-da741de490a9,786b55670c248cb,6025e0c53ddee24,Pirkimo-pardavimo sutartis,2022-05-12T00:00:00,LIETUVA,4500.0,Euras,Grynaisiais pinigais,2022-05-28T10:55:21
+db039981-6e15-4034-9059-4b68ed86febf,befa351be9a89c7,0a8a916e2f8a29c,Nuosavybės teisės liudijimas,2024-07-18T00:00:00,LIETUVA,22500.0,Euras,Nenurodyta,2024-07-19T15:02:56
+db401a17-57af-48a6-8f28-ed79acde6eeb,a2e1a7c33721ca9,998c19ee665b0d0,Pirkimo-pardavimo sutartis,2022-03-26T00:00:00,LIETUVA,6200.0,Euras,Grynaisiais pinigais,2022-03-26T09:55:52
+db69001c-7af9-41cb-a5e8-f72fb909cb59,72514f1601e589c,19018141cbd082e,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2025-09-10T00:00:00,LATVIJA,35360.0,Euras,Bankiniu pavedimu,2025-09-10T13:02:47
+dbd83e48-1900-4beb-82aa-439b0ff61d62,1b3fa58696ec3fe,69d8b93b44fbf2e,Pirkimo-pardavimo sutartis,2023-06-16T00:00:00,LIETUVA,3500.0,Euras,Bankiniu pavedimu,2023-06-16T19:50:26
+dc31fe1f-4571-440a-8f75-fa3187b664c4,8b11f42e59da1a7,26eb102c106500a,Mainų sutartis,2026-06-28T00:00:00,LIETUVA,3500.0,Euras,Nenurodyta,2026-06-30T16:54:22
+dc5d0cfc-4c4c-4bce-9d4c-65fd052e6ae4,9953ff638c208da,2068d08e84bc211,Pirkimo-pardavimo sutartis,2023-11-08T00:00:00,LIETUVA,4000.0,Euras,Bankiniu pavedimu,2023-11-12T19:57:31
+dcc60363-90cd-4548-841a-8741ecff575c,36b7ece084b233f,2f246df6799fc8e,Dovanojimo sutartis,2024-12-04T00:00:00,LIETUVA,1000.0,Euras,Nenurodyta,2024-12-04T14:01:33
+dcd9dcbb-f0ac-44ca-ba51-72deb223c35b,7f2125fb2c672ba,e3aa587de2e325c,Juridinio asmens reorganizavimo dokumentas,2022-02-23T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2022-08-18T13:55:06
+dd0a9750-9921-42b3-ac38-1eaebfe52305,8fcf6688f080f4c,015e573496d3aa7,Juridinio asmens reorganizavimo dokumentas,2022-01-12T00:00:00,LIETUVA,3231.02,Euras,Nenurodyta,2022-03-15T14:19:18
+dd74f3e1-45ee-4479-a61e-8e9f47973e42,4cc272c09be4b12,6b4ed00ab968eaf,Paveldėjimo teisės liudijimas,2026-05-28T00:00:00,LIETUVA,800.0,Euras,Nenurodyta,2026-05-29T10:50:34
+de497799-f69d-4fd4-848b-21e11751d8e2,f56134802b35455,ea5bebe387afd8f,Pirkimo-pardavimo sutartis,2025-03-18T00:00:00,LIETUVA,11300.0,Euras,Bankiniu pavedimu,2025-03-18T13:03:28
+df07d77f-9ca3-40b2-afa9-38405ab52576,eb0ae1024623dc4,62e702f0fed0478,Viešame prekių aukcione parduoto turto perdavimo aktas,2022-06-28T00:00:00,ESTIJA,1075.0,Euras,Grynaisiais pinigais,2022-07-26T11:00:13
+dfbf7c1e-4b80-42bc-9955-5c2b2ee2d7fe,f4be840d5c0f4ea,2cbb8a301ec2c53,Pirkimo-pardavimo sutartis,2022-12-15T00:00:00,LIETUVA,500.0,Euras,Grynaisiais pinigais,2022-12-20T12:56:19
+e0b81f43-ffb5-4806-a78a-64c9d045ed04,b93f004afd5757f,d90952b43f90585,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2023-03-14T00:00:00,LIETUVA,664.0,Euras,Nenurodyta,2023-07-14T10:52:15
+e1057e92-aa13-4429-ac2c-bda9321df998,386b4f202f19153,8b54093812e5004,Lizingo sutarties pabaigos aktas (pažyma),2021-07-05T00:00:00,LIETUVA,45980.0,Euras,Nenurodyta,2021-07-13T08:44:26
+e116c726-baa2-4d0d-b5be-2218df8096f1,c0e5a12620772ca,8105a265b729186,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2024-11-19T00:00:00,LIETUVA,6121.0,Euras,Nenurodyta,2025-02-21T08:17:06
+e153d429-eb7e-42f6-b379-27b1727029a0,e68bc4332c164a7,2ccae22f4079f07,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-10-31T00:00:00,PRANCŪZIJA,8005.0,Euras,Bankiniu pavedimu,2024-11-12T10:09:57
+e1d90f60-d7a1-4132-95fc-80d385bc64a6,b15faea4945f8d4,4aab05d1c10afaa,Pirkimo-pardavimo sutartis,2022-08-22T00:00:00,LIETUVA,1000.0,Euras,Grynaisiais pinigais,2022-08-22T16:56:14
+e3097d1b-734d-4c2b-932a-70d7683650e2,1c4a8a197c8b17b,f71aba0d6a08541,Deklaracija dėl bendrosios jungtinės nuosavybės (įgyta santuokoje),2024-08-28T00:00:00,LIETUVA,2100.0,Euras,Nenurodyta,2024-08-28T11:22:58
+e3684446-ec6b-4cd4-b7c4-07faa161f54b,7f099332dff46b9,86d9a8e256f35bf,Pirkimo-pardavimo sutartis,2022-04-11T00:00:00,VOKIETIJA,2750.0,Euras,Grynaisiais pinigais,2022-05-09T13:33:47
+e42e5aae-2f44-46b4-b10e-8d1e367b236f,f1ec90650e04e83,8cf3d68bb58c438,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-04-25T00:00:00,LIETUVA,2680.0,Euras,Grynaisiais pinigais,2023-04-28T13:21:58
+e4573ab5-3016-4b5b-abb7-7190e26c3a52,a1b234c5a007615,09e5a67efbec1ff,Pirkimo-pardavimo sutartis,2024-01-30T00:00:00,LIETUVA,26500.0,Euras,Bankiniu pavedimu,2024-01-30T14:25:31
+e5d56b84-09fe-4937-95e8-51895fffacbf,b48ad4c93ab3216,f7b8f6e5aff7cde,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2025-11-19T00:00:00,PRANCŪZIJA,4000.0,Euras,Bankiniu pavedimu,2025-11-27T13:54:22
+e7c6bf35-2e95-4728-a7f4-62084844e1b8,aace0efb8332ea3,81c80236b0f393e,Sandorio anuliavimo dokumentas,2023-01-11T00:00:00,LIETUVA,11800.0,Euras,Bankiniu pavedimu,2023-01-11T13:29:56
+e8488258-81bd-4ec4-ac7a-765ada3b7359,d530167f8c3da9c,b19625a0cd66a00,Pirkimo-pardavimo sutartis,2025-09-30T00:00:00,NYDERLANDAI,3500.0,Euras,Bankiniu pavedimu,2025-10-01T09:24:33
+e863ea40-5c7e-4efb-a173-ba432ff264d3,28541e0efa9ddee,0560e5e37bb22db,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2022-03-21T00:00:00,LIETUVA,4600.0,Euras,Bankiniu pavedimu,2022-03-22T12:11:55
+e979f1e7-6351-4ad6-8477-130a9854b590,659f81912427e81,b0307688b501189,ENTP priėmimo – perdavimo aktas,2022-04-14T00:00:00,LIETUVA,180.0,Euras,Grynaisiais pinigais,2022-04-14T16:11:22
+e981a3b3-ffda-4c3c-98c5-bad1a8c9d48c,fa97b02dac31b66,3d80a95926e8da4,Valstybės ar savivaldybės juridinio asmens turto perdavimo kitam valstybės ar savivaldybės juridiniam asmeniui dokumentas,2023-12-07T00:00:00,LIETUVA,47190.0,Euras,Nenurodyta,2023-12-12T15:17:52
+eafb349d-733d-4965-84ea-493671aa5725,41671d9afa1e0bd,0821da1913c48a5,Pirkimo-pardavimo sutartis,2024-07-25T00:00:00,LIETUVA,800.0,Euras,Grynaisiais pinigais,2024-07-25T18:41:39
+eb36f4a3-b8c7-4a17-8d11-d732a7006a97,ff7842600d49272,dbdc4aea00710cd,Sąskaita (mokėjimą patvirtinantis dokumentas),2021-11-15T00:00:00,ČEKIJA,6700.0,Euras,Nenurodyta,2022-06-16T13:30:00
+ebee5340-70a5-4a52-941b-74b18d23fd96,b0e0b86e3510a63,cd785fcadaa40ee,Pirkimo-pardavimo sutartis,2024-03-03T00:00:00,LIETUVA,1800.0,Euras,Grynaisiais pinigais,2024-03-09T16:31:36
+ec2d05d5-8143-43d0-9c4e-d2037c22c42f,621bf7b50afbf68,be12145e1ced02c,Paramos sutartis,2024-12-30T00:00:00,LIETUVA,0.85,Euras,Nenurodyta,2025-03-26T15:42:14
+ec425003-7144-46c9-b9be-8b2ecaf04b2c,ffb3ee19e7d989f,0c32cc723d953db,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2025-02-25T00:00:00,LIETUVA,2100.0,Euras,Bankiniu pavedimu,2025-02-26T11:05:43
+edb428c4-ac70-4e32-92a8-87b94d1049f8,49ade494812bf8d,a2b4e2074456c73,Pirkimo-pardavimo sutartis,2022-06-23T00:00:00,LIETUVA,2350.0,Euras,Grynaisiais pinigais,2022-06-27T13:25:44
+ef212c57-29f9-4a44-a3f5-a9f60e7a7b97,c697baadafc97fd,2c6b9aace312747,Transporto priemonės registravimo dokumentas (savo turto įvežimo į LR atveju),2023-03-23T00:00:00,PRANCŪZIJA,4500.0,Euras,Grynaisiais pinigais,2023-03-31T11:08:46
+ef4b1e35-fea5-4be1-93eb-b0f6de724a48,9787e5137543a95,400440fce2b7003,Pirkimo-pardavimo sutartis,2024-08-08T00:00:00,LIETUVA,400.0,Euras,Grynaisiais pinigais,2024-08-27T08:45:43
+ef73e68f-a64a-47c5-b8d4-5794e4eeaee8,155e68235fab57a,4d960d8aec97f55,Pirkimo-pardavimo sutartis,2024-03-12T00:00:00,LIETUVA,1500.0,Euras,Grynaisiais pinigais,2024-03-12T17:05:36
+efcf8c8c-6ca1-4e3c-9774-11fa9a0b7a55,9d552a6a4cb2d4c,7fd5224e0e08d43,Pirkimo-pardavimo sutartis,2022-10-10T00:00:00,LIETUVA,3700.0,Euras,Grynaisiais pinigais,2022-10-10T21:27:55
+f010d477-af89-4d19-b4cb-220aeeb39f5b,29db205222cf55f,674b65bd1e35886,ENTP priėmimo – perdavimo aktas,2022-05-30T00:00:00,LIETUVA,500.0,Euras,Grynaisiais pinigais,2022-05-30T13:30:37
+f0291023-5ab0-4ef9-a14d-2e410aad8c2e,5ac3e42a35bde8f,218712b84393fea,Pirkimo-pardavimo sutartis,2021-06-22T00:00:00,LIETUVA,100.0,Euras,Grynaisiais pinigais,2021-06-29T07:55:05
+f05f69fa-0956-423f-a4df-b052a9c9dc30,30b97dfc445d9a0,8bcf479a9ecec84,Pirkimo-pardavimo sutartis,2023-05-01T00:00:00,LIETUVA,2700.0,Euras,Bankiniu pavedimu,2023-05-02T16:11:21
+f075d584-c7e2-402b-b3e0-ff9d9457c5eb,2c88c50ca96b702,4edcd0eda204124,Paramos sutartis,2026-06-29T00:00:00,LIETUVA,3252.0,Euras,Nenurodyta,2026-06-29T11:13:00
+f08ab520-beb2-4ff7-b467-e91af164600f,7d9d2c3b816128d,83975a71b2f2d1a,Pirkimo-pardavimo sutartis,2022-02-01T00:00:00,LIETUVA,9200.0,Euras,Grynaisiais pinigais,2022-02-04T19:40:45
+f0df42d3-c27d-4fb7-8aa5-745178e5afdf,dfbc80a45865428,4dd158c6692e431,Juridinio asmens reorganizavimo dokumentas,2021-10-31T00:00:00,LIETUVA,25579.4,Euras,Nenurodyta,2021-12-06T16:56:31
+f0efadc4-8546-47d9-b653-98658be76640,b8adc0e6765beeb,d79cb244b996c2e,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-03-04T00:00:00,LIETUVA,6900.0,Euras,Bankiniu pavedimu,2024-03-06T14:58:59
+f1355238-9bd1-4f67-a01d-e0467e04ea3f,4e704bd7160fdaf,c8473c60533de7b,Mainų sutartis,2026-10-25T00:00:00,LIETUVA,799.0,Euras,Grynaisiais pinigais,2026-10-25T13:53:04
+f1632f80-ae76-4a2c-80c5-d214713c411e,7d6bd177c8d3365,82f4bc22065e642,Pagaminimo deklaracija,2025-08-21T00:00:00,LIETUVA,47928.0,Euras,Bankiniu pavedimu,2025-08-21T15:34:03
+f1ce8b99-7410-48eb-b0a5-41bfb88af4d6,2e1755f6ab68930,387b85980155232,Sandorio anuliavimo dokumentas,2022-03-18T00:00:00,LIETUVA,0.0,Euras,Nenurodyta,2022-03-18T17:39:02
+f2bb2998-8a7e-4cdb-9278-a7c420e47738,f5bb4d4b82c0f43,7f050cf523537d5,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2026-05-11T00:00:00,ESTIJA,18795.0,Euras,Bankiniu pavedimu,2026-05-11T09:37:56
+f355720e-ab3b-42e2-b15f-f22d20583e1f,7f2129af0725fcd,3a5b41093a26a92,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-04-13T00:00:00,LIETUVA,10000.0,Euras,Bankiniu pavedimu,2024-04-19T10:59:48
+f3557603-3ff0-4ec8-9e7e-f460929535a3,5112ae663ce4c85,a19ee8f6aa8c818,Sąskaita (mokėjimą patvirtinantis dokumentas),2023-03-03T00:00:00,LIETUVA,2000.0,Euras,Bankiniu pavedimu,2023-03-07T10:06:36
+f37841f2-9579-4e89-8203-509c932c84ea,617fed2918e4193,0c9e9d5872c37d1,Pirkimo-pardavimo sutartis,2021-06-13T00:00:00,LIETUVA,650.0,Euras,Grynaisiais pinigais,2021-06-13T14:50:31
+f3f3c342-3570-4a21-8c72-c536ed22cccf,b376652f6ff111c,c535d8b6884bd58,Pirkimo-pardavimo sutartis,2024-06-25T00:00:00,LIETUVA,700.0,Euras,Grynaisiais pinigais,2024-07-03T10:25:42
+f3f6ecc0-9db1-471f-bc2f-d76c2995ee67,a101b62105cfd2f,563a81fa1f7f47b,Sąskaita (mokėjimą patvirtinantis dokumentas),2025-03-31T00:00:00,LIETUVA,25773.0,Euras,Bankiniu pavedimu,2025-04-04T11:35:44
+f623cbfa-adcf-438a-9aad-a9b49b5ef99e,dfd7fe40ece3c8d,3778ab89c512c8e,Pirkimo-pardavimo sutartis,2022-12-21T00:00:00,ITALIJA,200.0,Euras,Bankiniu pavedimu,2023-01-17T17:12:54
+f678a96a-1445-4f2d-a7e6-5ccbb9a09c36,197193d089e470b,5892482e888f63a,Pirkimo-pardavimo sutartis,2024-07-06T00:00:00,LIETUVA,2300.0,Euras,Grynaisiais pinigais,2024-07-06T14:08:09
+f6c8ca48-7909-4a8f-8ae5-9dd522d1f4f0,8b99ff919a2b148,c0be88b353ac7de,ENTP priėmimo – perdavimo aktas,2025-05-30T00:00:00,LIETUVA,100.0,Euras,Grynaisiais pinigais,2025-06-05T14:44:14
+f6df1f11-9dd1-4a18-836b-5f71e2eab2b1,91641eeb95407f9,8aab1059dfd469e,Sąskaita (mokėjimą patvirtinantis dokumentas),2025-01-09T00:00:00,LIETUVA,12300.0,Euras,Bankiniu pavedimu,2025-01-11T07:52:41
+f79a41d2-d1eb-44e3-9d23-2186295def64,f6a1ae1033e216e,8e28ae77f417a80,Sąskaita (mokėjimą patvirtinantis dokumentas),2024-10-31T00:00:00,LIETUVA,15000.0,Euras,Grynaisiais pinigais,2024-12-12T09:10:03
+faafca5a-1975-43a9-a8f6-2da0717da5cd,713a48b6325d870,6294bb6b1395970,Lizingo sutarties pabaigos aktas (pažyma),2024-05-02T00:00:00,LIETUVA,81070.0,Euras,Nenurodyta,2024-05-02T14:37:20
+fac98c7c-2315-49dc-b15e-352ca9099a37,963b7fb43816e71,6cc24ed39462089,Mainų sutartis,2021-06-08T00:00:00,LIETUVA,2000.0,Euras,Grynaisiais pinigais,2021-06-09T09:14:59
+fb81008e-b75a-4038-add0-ebd9adefeab3,972610f275a595e,5d4276c0390ffb8,Lizingo sutarties pabaigos aktas (pažyma),2024-07-15T00:00:00,LIETUVA,13900.0,Euras,Bankiniu pavedimu,2024-07-16T08:56:30
+fbe11c07-b626-42e0-864b-44db88c15a3a,797f92c3fe85025,45afaa577705d1a,Pirkimo-pardavimo sutartis,2025-08-12T00:00:00,LIETUVA,32500.0,Euras,Bankiniu pavedimu,2025-08-13T08:21:37
+fc94e3ef-8399-4f53-a38c-8e1812dd8d0a,fb3c012128a3b0f,1f4236b5adeb317,"Prašymas dėl transporto priemonės registravimo, patvirtintas URM",2026-03-17T00:00:00,ESTIJA,79150.0,Euras,Bankiniu pavedimu,2026-03-17T15:18:47
+fd08d610-8914-48a6-a1d3-ca2326feda0c,4cf22c65502adb6,68998c3be979f85,Sąskaita (mokėjimą patvirtinantis dokumentas),2026-10-16T00:00:00,PRANCŪZIJA,7165.0,Euras,Bankiniu pavedimu,2026-10-22T19:48:03
+fd844165-0d17-40fe-b93d-6aad7645c3d9,d257209466863d9,00fa4105c436da6,Pirkimo-pardavimo sutartis,2022-08-23T00:00:00,LIETUVA,3150.0,Euras,Grynaisiais pinigais,2022-08-23T09:30:40
+feaa35d2-e6da-4594-b062-ba1172fa5020,0e22e92bb86751d,77f95299580cb20,Teismo ar kitos teisėsaugos institucijos sprendimas (nutarimas),2022-10-21T00:00:00,LIETUVA,520.0,Euras,Nenurodyta,2022-11-24T18:36:51
+fecb4d32-f2cb-4b37-967d-192def1618fd,baeaaed2e1ad453,b124d5c3b83cc33,Laimėjimą patvirtinantis dokumentas,2026-01-21T00:00:00,LIETUVA,31700.0,Euras,Nenurodyta,2026-01-22T14:13:25
+fff37532-b813-495b-9983-c979ecdbd3c9,827b502b34a502c,6378be6c04f04a4,Laimėjimą patvirtinantis dokumentas,2024-08-14T00:00:00,LIETUVA,4500.0,Euras,Bankiniu pavedimu,2024-08-14T14:49:17

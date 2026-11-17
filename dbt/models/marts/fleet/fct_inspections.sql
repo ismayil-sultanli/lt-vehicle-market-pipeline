@@ -1,0 +1,27 @@
+-- Fact table, one row per (de-duplicated) technical inspection.
+select
+    inspection_id,
+    vehicle_id,
+    station_id,
+    inspection_week,
+    inspection_year,
+    municipality,
+    inspection_type,
+    is_first_attempt,
+    conclusion,
+    is_passed,
+    validity_months,
+    make,
+    model,
+    make_raw,
+    vehicle_class,
+    vehicle_class_name,
+    vehicle_category,
+    is_passenger_car,
+    fuel_type,
+    fuel_group,
+    manufacture_year,
+    vehicle_age_years,
+    odometer_km,
+    extracted_at
+from {{ ref('int_inspections__enriched') }}

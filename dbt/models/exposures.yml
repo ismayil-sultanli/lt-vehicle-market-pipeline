@@ -1,0 +1,30 @@
+version: 2
+
+exposures:
+  - name: vehicle_market_dashboard
+    label: Lithuanian vehicle market dashboard
+    type: dashboard
+    maturity: medium
+    description: >
+      Streamlit dashboard with two views: the vehicle market (ownership
+      transfers, declared prices, payment methods) and the vehicle fleet
+      (makes, models, age, fuel, mileage, inspection outcomes). It reads only the
+      aggregate marts listed here, exported as Parquet by `lvm export`.
+    owner:
+      name: Project maintainer
+    depends_on:
+      - ref('agg_market_monthly')
+      - ref('agg_payment_methods_monthly')
+      - ref('agg_cash_limit_bunching_monthly')
+      - ref('agg_import_origins_monthly')
+      - ref('agg_transaction_types_monthly')
+      - ref('agg_price_bands_yearly')
+      - ref('agg_pipeline_status')
+      - ref('agg_fleet_fuel_yearly')
+      - ref('agg_fleet_makes_yearly')
+      - ref('agg_fleet_models')
+      - ref('agg_fleet_municipalities')
+      - ref('agg_pass_rate_by_age')
+      - ref('agg_annual_mileage')
+      - ref('agg_odometer_checks_yearly')
+      - ref('agg_fleet_status')
