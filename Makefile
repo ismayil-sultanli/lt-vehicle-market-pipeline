@@ -4,7 +4,7 @@ BIN  := $(VENV)/bin
 DBT  := $(BIN)/dbt
 DBT_FLAGS := --project-dir dbt --profiles-dir dbt
 
-.PHONY: help setup extract build freshness export pipeline dashboard test lint demo unit figures snapshot format docs clean
+.PHONY: help setup extract build freshness export pipeline dashboard test lint demo unit figures snapshot refresh format docs clean
 
 help: ## Show this help
 	@grep -E '^[a-z-]+:.*##' $(MAKEFILE_LIST) | awk -F ':.*## ' '{printf "  %-12s %s\n", $$1, $$2}'
@@ -60,6 +60,10 @@ figures: ## Regenerate the README charts and docs/findings.md from the marts
 
 snapshot: ## Refresh the marts snapshot the dashboard falls back to
 	cp data/export/*.parquet dashboard/snapshot/
+
+refresh: pipeline snapshot figures ## Re-run everything and update the committed snapshot, findings and charts
+	@echo "Review with git status, then commit dashboard/snapshot and docs and push:"
+	@echo "the hosted dashboard redeploys from main."
 
 format: ## Auto-format
 	$(BIN)/ruff check --fix .

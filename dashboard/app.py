@@ -6,8 +6,8 @@ The app only reads the exported aggregate marts. All business logic lives in
 dbt; this file only filters, formats and draws. Where the marts come from, in
 order of preference:
 
-1. ``LVM_MARTS_URL``: a folder or HTTPS base URL, e.g. the ``marts-data`` branch
-   that the daily GitHub Actions run publishes (set it as a secret when hosting);
+1. ``LVM_MARTS_URL``: a folder or HTTPS base URL holding the exported marts
+   (an environment variable, or a secret when hosted);
 2. ``data/export``: the output of a local ``make pipeline`` run;
 3. ``dashboard/snapshot``: a small copy committed to the repository, so the
    dashboard works straight after cloning.

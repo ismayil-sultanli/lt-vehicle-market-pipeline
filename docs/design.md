@@ -11,7 +11,7 @@ change at a larger scale. Figures are from a full run on a laptop
 * Load two public datasets completely and keep them current without manual work.
 * Never publish a wrong number silently: every assumption is a test.
 * Re-runnable at any time with the same result (idempotent at every step).
-* Cheap to run: a laptop, a free GitHub runner, or a small VM.
+* Cheap to run: a laptop or a small VM with access to the source.
 
 **Non-goals**
 
@@ -30,7 +30,7 @@ change at a larger scale. Figures are from a full run on a laptop
 | History | May 2021 onwards, mutable | 2015 onwards, append-only, frozen since May 2025 |
 | Refresh | roughly weekly | not refreshed since May 2025 |
 
-First load: about 30 minutes (network bound). Daily run: under a minute of
+First load: about 30 minutes (network bound). Incremental run: under a minute of
 extraction and three to four minutes of `dbt build` (176 nodes). Warehouse file:
 5 GB.
 
@@ -63,9 +63,9 @@ Snowflake with dbt adapter changes (see *Scaling*).
 
 A transaction document can be edited after it was first published. If the raw
 layer were partitioned by transaction date, an edit to a 2022 document would
-change a 2022 file, and every daily run would have to re-download all history to
+change a 2022 file, and every run would have to re-download all history to
 notice. Partitioning by *modification* month means a closed month never changes:
-the daily run re-pulls only the two newest partitions plus anything missing.
+each run re-pulls only the two newest partitions plus anything missing.
 Inspections are append-only, so they are partitioned by inspection month.
 
 Monthly is a balance between request count and file size: the largest month is
@@ -127,8 +127,13 @@ avoids that, keeps Airflow a pure scheduler, and means every task is a command a
 developer can run by hand. The cost is coarser observability than a dbt-native
 integration such as Cosmos, which would map each model to a task.
 
-GitHub Actions runs the same steps daily as a hosted fallback, so the data keeps
-flowing without a long-running Airflow instance.
+The source API does not answer requests from GitHub-hosted runners (every
+request from a runner got HTTP 500 while the same requests from a Lithuanian
+connection succeeded in the same minutes), so the pipeline cannot run on GitHub
+Actions. Working around the block with a proxy would ignore what is probably a
+deliberate choice by the publisher. Instead the pipeline runs where the API is
+reachable, CI stays offline, and the hosted dashboard serves a committed
+snapshot that `make refresh` updates.
 
 ### The dashboard reads exported files, not the warehouse
 
@@ -146,6 +151,7 @@ pipeline, and cannot contain business logic, because it never sees a fact row.
 | Publisher renames or reorders a column | The CSV header is compared with the requested columns before loading; the run fails loudly. |
 | Publisher sends a bad value | Lands as text; a dbt test fails or warns, depending on severity. |
 | A new category appears (document type, country, make) | Mapped to `Unmapped` or `Other`; coverage tests fail if the unmapped share passes a threshold. |
+| Source refuses the network the job runs on | Every request fails after retries and the run fails loudly; partitions already on disk are untouched. Seen in practice from GitHub-hosted runners. |
 | Publisher stops updating | `dbt source freshness` warns after 14 days and errors after 45 (transactions). |
 | A mart changes shape | Enforced dbt contracts fail the build; the dashboard tests fail in CI. |
 | Process killed mid-run | Partitions are atomic; partitions on disk but missing from the manifest are reloaded on the next run. |

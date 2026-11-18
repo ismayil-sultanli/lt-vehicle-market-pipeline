@@ -68,7 +68,7 @@ flowchart LR
     A1[("Regitra<br/>vehicle transactions")]
     A2[("TRANSEKSTA<br/>technical inspections")]
 
-    subgraph Airflow["Airflow DAG · daily 06:00 Vilnius (GitHub Actions as hosted fallback)"]
+    subgraph Airflow["Airflow DAG · daily 06:00 Vilnius"]
         direction LR
         E1["extract_sandoris"]
         E2["extract_apziura"]
@@ -164,6 +164,14 @@ straight after cloning, can be hosted for free, and all business logic stays in
 dbt. A dbt exposure documents the dependency and a test keeps the two lists in
 sync.
 
+**Run where the source is reachable.** The open data API rejects requests from
+GitHub-hosted runners: in a test, all 57 requests from a runner got HTTP 500
+while the same requests from a Lithuanian connection, in the same two minutes,
+all succeeded. Rather than work around a block the publisher may have chosen, the
+pipeline runs where the API is reachable (locally or under Airflow), GitHub
+Actions runs only the offline CI, and the hosted dashboard serves a committed
+snapshot that `make refresh` updates.
+
 **Airflow orchestrates, it does not compute.** The pipeline lives in its own
 virtualenv and the DAG shells out to it, so Airflow's and dbt's dependency trees
 never have to agree, and every task can be reproduced with one `make` target.
@@ -228,9 +236,9 @@ The dashboard alone needs no pipeline run: `make dashboard` falls back to the
 snapshot in `dashboard/snapshot/`. After `make demo`, open the demo output with
 `LVM_DATA_DIR=data/demo make dashboard`.
 
-Other targets: `make figures` (regenerate the findings and charts; refuses to
-run on partial data), `make snapshot`, `make unit`, `make docs` (dbt lineage
-site), `make help`.
+Other targets: `make refresh` (re-run everything and update the committed
+snapshot, findings and charts), `make figures` (refuses to run on partial data),
+`make snapshot`, `make unit`, `make docs` (dbt lineage site), `make help`.
 
 ### With S3
 
@@ -253,20 +261,15 @@ The DAG `vehicle_market_daily` runs both extracts in parallel, then freshness,
 `dbt build` and the export. Without Docker it can be executed once with
 `airflow dags test vehicle_market_daily`.
 
-### Hosted runs
-
-`.github/workflows/daily-pipeline.yml` runs the pipeline on a GitHub-hosted
-runner every day, keeps raw partitions in the Actions cache and pushes the
-exported marts to a `marts-data` branch.
+### Hosted dashboard
 
 The dashboard runs on Streamlit Community Cloud at
 [lt-vehicle-market.streamlit.app](https://lt-vehicle-market.streamlit.app), deployed
 as is (main file `dashboard/app.py`, dependencies in `dashboard/requirements.txt`).
-It starts on the committed snapshot; to follow the daily data, add this secret:
-
-```toml
-LVM_MARTS_URL = "https://raw.githubusercontent.com/ismayil-sultanli/lt-vehicle-market-pipeline/marts-data"
-```
+It reads the snapshot committed in `dashboard/snapshot/`. To publish newer data,
+run `make refresh`, commit the updated snapshot and docs, and push: Streamlit
+redeploys from `main`. The app can also read marts from any folder or HTTPS URL
+set in `LVM_MARTS_URL`.
 
 ## Project layout
 
@@ -275,10 +278,10 @@ src/lt_vehicle_market/   dataset catalogue, extractor, storage (local or S3), ma
 dbt/                     sources, staging, intermediate, marts, seeds, macros, tests
 airflow/                 DAG and Docker image
 dashboard/               Streamlit app (market and fleet views) and a marts snapshot
-scripts/                 findings report and chart generator, marts publisher
+scripts/                 findings report and chart generator
 tests/                   unit tests and offline end-to-end tests on real-data fixtures
 docs/                    design notes, generated findings and charts
-.github/workflows/       CI and the scheduled daily pipeline
+.github/workflows/       CI: lint, types, tests, Airflow DAG, Docker image
 ```
 
 ## Data sources
